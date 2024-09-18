@@ -1,3 +1,4 @@
+
 # StockSense
 
 ## Team Info & Policies
