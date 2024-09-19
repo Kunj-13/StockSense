@@ -53,8 +53,17 @@ N/A – it is the first week.
 Tahira I will be working on the Front-End: The front end is built using HTML, CSS, and JavaScript for dynamic interactions. A framework such as React.js or Vue.js can be used to enhance the user experience.
 
 ### Krish
-Ive been learning about relevant machine learning models and LLMs and brushing up on python skills.
 
+## Subsection 1: 
+N/A – it is the first week.
+
+## Subsection 2:
+- Learned about different ML models we might integrate
+- checked out LLMs
+
+## Subsection 3: 
+- Looking for good dataset
+- Researching ML models
 
 ### Navid Hoque
 
