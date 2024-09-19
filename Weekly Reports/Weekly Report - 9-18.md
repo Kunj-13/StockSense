@@ -40,3 +40,6 @@ I've been watching videos to figure out where to get a good dataset that we can 
 
 ### Tahira
 Tahira I will be working on the Front-End: The front end is built using HTML, CSS, and JavaScript for dynamic interactions. A framework such as React.js or Vue.js can be used to enhance the user experience.
+
+###Krish
+Ive been learning about relevant machine learning models and LLMs and brushing up on python skills.
