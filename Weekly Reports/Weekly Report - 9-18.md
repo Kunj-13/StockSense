@@ -8,7 +8,7 @@ This week, we worked on figuring out who is responsible for each part of the pro
 
 - **Navid and Kunj**: Working on the machine learning aspects with the LLM (Language Model).
 - **Krish and Sahil**: Focusing on the backend development.
-- **Tahira and [Other Group Member]**: Responsible for the frontend of the project.
+- **Tahira and [Other Group Member genuinely cant remember his name his discord is pillowcase guy]**: Responsible for the frontend of the project.
 
 ### Where We Had Troubles:
 - Not everybody shows up to our section in person, and some are only on Zoom. This has led to slight communication issues, but we expect this to be resolved by next week.
