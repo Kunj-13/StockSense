@@ -21,14 +21,8 @@ This week, we worked on figuring out who is responsible for each part of the pro
 - Create either a web scraper tool or download PDFs of the speeches.
 - Convert the PDFs of the speeches into a format suitable for the LLM.
 
-<br></br>
 # Individual Report
-<!--Copy pasting syntax works; also, make sure to follow the format-->
-<!--Uncomment the bottom-most lines and put it in an md renderer to see how it would look-->
-<!--To write these reports, I recommend knowing HTML-->
 
-<!-- <p>Neville: Today I learned that 1 + 1 = 11</p> -->
-<!-- <p>Neville: Today I learned that 1 + 1 = 11</p> -->
 
 ## Kunj 
 
