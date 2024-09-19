@@ -29,3 +29,7 @@ This week, we worked on figuring out who is responsible for each part of the pro
 
 <!-- <p>Neville: Today I learned that 1 + 1 = 11</p> -->
 <!-- <p>Neville: Today I learned that 1 + 1 = 11</p> -->
+
+### Kunj 
+
+I will mainly work on the machine-learning aspect with Navid for the project. For this week, I have just started going through different materials and researching what machine-learning models we will use. Not just that but also going through videos and articles to get a grasp of the project and finalize the features we would like our project to have so we can actually get started on working on the project next week.
