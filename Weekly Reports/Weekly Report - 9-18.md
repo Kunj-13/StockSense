@@ -43,3 +43,19 @@ Tahira I will be working on the Front-End: The front end is built using HTML, CS
 
 ### Krish
 Ive been learning about relevant machine learning models and LLMs and brushing up on python skills.
+
+
+### Navid Hoque
+
+## Subsection 1: 
+N/A – it is the first week.
+
+## Subsection 2:
+This week, I helped organize the team into 3 different groups. I also found some learning materials to help everyone get started.
+
+## Subsection 3: 
+- Find more material about LLMs and send it to the group.
+- Figure out which model will be best for the project.
+- Identify where to find the Fed speeches.
+- Determine whether it's better to use a web scraper or simply download PDFs of the speeches.
+
