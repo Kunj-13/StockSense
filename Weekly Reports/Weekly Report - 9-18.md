@@ -35,5 +35,5 @@ This week, we worked on figuring out who is responsible for each part of the pro
 I will mainly work on the machine-learning aspect with Navid for the project. For this week, I have just started going through different materials and researching what machine-learning models we will use. Not just that but also going through videos and articles to get a grasp of the project and finalize the features we would like our project to have so we can actually get started on working on the project next week.
 
 
-## Sahil
+### Sahil
 I've been watching videos to figure out where to get a good dataset that we can easily integrate into the code. I’ve also been checking out which machine learning model and LLM would work best for this project, and looking into the features we’ll need to add. Hopefully, I’ll be able to start coding next week.
