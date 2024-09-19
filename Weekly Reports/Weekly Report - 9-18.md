@@ -37,3 +37,6 @@ I will mainly work on the machine-learning aspect with Navid for the project. Fo
 
 ### Sahil
 I've been watching videos to figure out where to get a good dataset that we can easily integrate into the code. I’ve also been checking out which machine learning model and LLM would work best for this project, and looking into the features we’ll need to add. Hopefully, I’ll be able to start coding next week.
+
+### Tahira
+Tahira I will be working on the Front-End: The front end is built using HTML, CSS, and JavaScript for dynamic interactions. A framework such as React.js or Vue.js can be used to enhance the user experience.
