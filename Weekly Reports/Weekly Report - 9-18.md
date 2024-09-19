@@ -41,7 +41,7 @@ N/A – it is the first week.
 
 ## Subsection 2:
 - I've been watching videos to figure out where to get a good dataset that we can easily integrate into the code.
-- I’ve also been checking out which machine learning model and LLM would work best for this project, and looking into the features we’ll need to add. Hopefully, I’ll be able to start coding next week.
+- I’ve also been checking out which machine learning model and LLM would work best for this project, and looking into the features we’ll need to add. 
 
 ## Subsection 3: 
 - Finding a good dataset to use.
