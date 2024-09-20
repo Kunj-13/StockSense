@@ -212,7 +212,6 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 4. The chatbot offers to provide additional resources or answer follow-up questions.
 
 ### Extensions/Variations:
-- The user requests interactive tutorials or quizzes to test their understanding.
 - The user asks for comparisons between multiple terms (e.g., "What's the difference between 'Alpha' and 'Beta'?").
 
 ### Exceptions (Failure Conditions and Scenarios):
