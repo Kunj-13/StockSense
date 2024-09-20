@@ -103,7 +103,7 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 
 
 ## Team Process Description
-###Software Toolset
+### Software Toolset
 * Python for data processing, machine learning, and API integration.
 * JavaScript/React for front-end development and creating user interfaces.
 * TensorFlow/PyTorch for building and training the LLM
