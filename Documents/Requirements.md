@@ -36,38 +36,191 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 ## Use Cases (Functional Requirements)
 
 ### Use Case 1: Stock Data Inquiry
-### Actors: 
-- Trader (User)
 
-### Trigger: 
-- The user wants to know the current price of a specific stock.
+**Actors:** Trader (User)
+
+**Trigger:** The user wants to know the current price of a specific stock.
 
 ### Preconditions:
-
 - The user is logged into the StockSense chatbot.
 - The chatbot is connected to live stock data APIs (e.g., yfinance).
+
 ### Postconditions (Success Scenario):
-
 - The user receives accurate and up-to-date information about the requested stock.
+
 ### List of Steps (Success Scenario):
+1. The user initiates a conversation with the chatbot.
+2. The user inputs a query (e.g., "What is the current price of AAPL?").
+3. The chatbot parses the query and identifies the stock ticker symbol.
+4. The chatbot retrieves real-time data for AAPL from the stock data API.
+5. The chatbot displays the current price along with additional details like opening price, closing price, and day's high and low.
 
-- The user initiates a conversation with the chatbot.
-- The user inputs a query (e.g., "What is the current price of AAPL?").
-- The chatbot parses the query and identifies the stock ticker symbol.
-- The chatbot retrieves real-time data for AAPL from the stock data API.
-- The chatbot displays the current price along with additional details like opening price, closing price, and day's high and low.
 ### Extensions/Variations:
-
 - The user asks for historical data (e.g., "Show me AAPL's stock price over the past month.").
 - The user inquires about multiple stocks at once (e.g., "What are the current prices of AAPL, MSFT, and GOOGL?").
-### Exceptions (Failure Conditions and Scenarios):
 
-- Invalid Stock Symbol: The user enters an unrecognized ticker symbol.
--- Resolution: The chatbot informs the user that the symbol is invalid and prompts for a valid one.
-- API Failure: The stock data API is unavailable.
--- Resolution: The chatbot apologizes for the inconvenience and suggests trying again later.
-- Connectivity Issues: The user's internet connection is lost.
--- Resolution: The chatbot detects the disconnection and advises the user to check their internet connection.
+### Exceptions (Failure Conditions and Scenarios):
+- **Invalid Stock Symbol:** The user enters an unrecognized ticker symbol.  
+  **Resolution:** The chatbot informs the user that the symbol is invalid and prompts for a valid one.
+- **API Failure:** The stock data API is unavailable.  
+  **Resolution:** The chatbot apologizes for the inconvenience and suggests trying again later.
+- **Connectivity Issues:** The user's internet connection is lost.  
+  **Resolution:** The chatbot detects the disconnection and advises the user to check their internet connection.
+
+
+### Use Case 2: Stock Option Guidance
+
+**Actors:** Trader (User)
+
+**Trigger:** The user seeks advice on which stock options to consider based on current market conditions.
+
+### Preconditions:
+- The user is logged into the StockSense chatbot.
+- The chatbot has access to real-time option data and market analysis tools.
+
+### Postconditions (Success Scenario):
+- The user receives tailored recommendations for stock options, including risk assessments.
+
+### List of Steps (Success Scenario):
+1. The user engages the chatbot with a query (e.g., "What options strategies should I consider for a bullish outlook on TSLA?").
+2. The chatbot interprets the user's market outlook and the specified stock.
+3. The chatbot analyzes current option chains for TSLA, including Greeks like Delta and Theta.
+4. The chatbot generates recommendations for suitable options strategies (e.g., buying call options or bull call spreads).
+5. The chatbot presents the recommendations with explanations and potential risks.
+
+### Extensions/Variations:
+- The user specifies a risk tolerance level (e.g., "I prefer low-risk options strategies.").
+- The user asks for comparisons between different strategies.
+
+### Exceptions (Failure Conditions and Scenarios):
+- **Insufficient Data:** Option data for the specified stock is unavailable.  
+  **Resolution:** The chatbot informs the user of the issue and suggests alternative stocks.
+- **Ambiguous Query:** The user's request is unclear.  
+  **Resolution:** The chatbot asks clarifying questions to better understand the user's needs.
+
+---
+
+### Use Case 3: Federal Reserve Speech Analysis
+
+**Actors:** Trader (User)
+
+**Trigger:** The user wants to understand how recent Federal Reserve speeches might impact the stock market.
+
+### Preconditions:
+- The chatbot has access to transcripts of recent Federal Reserve speeches.
+- Natural language processing capabilities are in place to analyze speech content.
+
+### Postconditions (Success Scenario):
+- The user gains insights into potential market movements based on Federal Reserve communications.
+
+### List of Steps (Success Scenario):
+1. The user asks the chatbot (e.g., "How might the latest Fed speech affect interest rates and the stock market?").
+2. The chatbot retrieves the most recent Federal Reserve speech transcript.
+3. The chatbot analyzes the speech for key themes and policy indications.
+4. The chatbot summarizes the findings, highlighting possible impacts on interest rates and market sectors.
+5. The chatbot presents the analysis to the user in an easy-to-understand format.
+
+### Extensions/Variations:
+- The user requests historical comparisons (e.g., "Compare this speech to last month's speech.").
+- The user asks for implications on specific sectors (e.g., "How will this affect the tech industry?").
+
+### Exceptions (Failure Conditions and Scenarios):
+- **No Recent Speeches:** There are no new speeches since the last analysis.  
+  **Resolution:** The chatbot informs the user and offers to provide insights from the most recent available speech.
+- **Analysis Error:** The chatbot fails to analyze the speech due to technical issues.  
+  **Resolution:** The chatbot apologizes and suggests trying again later.
+
+
+## Use Case 4: Market Sentiment Analysis
+
+**Actors:** Trader (User)
+
+**Trigger:** The user wants to gauge the market sentiment for a particular stock or sector.
+
+### Preconditions:
+- The chatbot is integrated with news feeds and social media platforms.
+- Sentiment analysis algorithms are operational.
+
+### Postconditions (Success Scenario):
+- The user receives a sentiment report indicating positive, negative, or neutral market perceptions.
+
+### List of Steps (Success Scenario):
+1. The user queries the chatbot (e.g., "What's the current market sentiment on Bitcoin?").
+2. The chatbot collects recent articles, tweets, and posts related to Bitcoin.
+3. The chatbot performs sentiment analysis on the aggregated data.
+4. The chatbot compiles the results into a summary report.
+5. The chatbot shares the sentiment analysis with the user, including key influencing factors.
+
+### Extensions/Variations:
+- The user asks for sentiment trends over a specific period.
+- The user inquires about sentiment differences across regions.
+
+### Exceptions (Failure Conditions and Scenarios):
+- **Insufficient Data:** Not enough recent information is available.  
+  **Resolution:** The chatbot notifies the user and may offer data from a broader time frame.
+- **Sentiment Analysis Failure:** Technical issues prevent analysis.  
+  **Resolution:** The chatbot apologizes and recommends trying again later.
+
+
+## Use Case 5: Personalized Trading Alerts
+
+**Actors:** Trader (User)
+
+**Trigger:** The user wants to set up personalized alerts for specific trading conditions.
+
+### Preconditions:
+- The user is logged into their StockSense account.
+- The chatbot has the capability to monitor market conditions and send notifications.
+
+### Postconditions (Success Scenario):
+- The user receives timely alerts that match their predefined criteria.
+
+### List of Steps (Success Scenario):
+1. The user communicates with the chatbot (e.g., "Set an alert for when GOOGL drops below $2,500.").
+2. The chatbot confirms the alert details with the user.
+3. The chatbot saves the alert criteria in the user's profile.
+4. The system continuously monitors GOOGL's stock price.
+5. When the price drops below $2,500, the chatbot sends a notification to the user.
+6. The user receives the alert and can decide to take action.
+
+### Extensions/Variations:
+- The user sets up complex alerts (e.g., "Alert me when the 50-day moving average crosses the 200-day moving average for AMZN.").
+- The user chooses preferred notification methods (email, SMS, app notification).
+
+### Exceptions (Failure Conditions and Scenarios):
+- **Monitoring Failure:** The system fails to monitor the condition due to technical issues.  
+  **Resolution:** The chatbot informs the user of the failure when detected and works to restore monitoring.
+- **Invalid Alert Criteria:** The user sets an impossible or illogical alert.  
+  **Resolution:** The chatbot prompts the user to adjust the criteria to valid parameters.
+
+
+## Use Case 6: Educational Content Access
+
+**Actors:** Trader (User)
+
+**Trigger:** The user wants to learn about financial terms or concepts to improve their trading knowledge.
+
+### Preconditions:
+- The chatbot is equipped with a comprehensive financial glossary and educational modules.
+
+### Postconditions (Success Scenario):
+- The user gains a better understanding of the requested financial concepts.
+
+### List of Steps (Success Scenario):
+1. The user asks the chatbot (e.g., "Explain what 'Theta' means in options trading.").
+2. The chatbot retrieves the definition and detailed explanation of 'Theta' from its educational resources.
+3. The chatbot presents the information in an easy-to-understand manner, possibly with examples.
+4. The chatbot offers to provide additional resources or answer follow-up questions.
+
+### Extensions/Variations:
+- The user requests interactive tutorials or quizzes to test their understanding.
+- The user asks for comparisons between multiple terms (e.g., "What's the difference between 'Alpha' and 'Beta'?").
+
+### Exceptions (Failure Conditions and Scenarios):
+- **Term Not Found:** The requested term is not in the glossary.  
+  **Resolution:** The chatbot apologizes and may suggest related terms or update the glossary in the future.
+- **Overwhelming Information:** The user feels the explanation is too complex.  
+  **Resolution:** The chatbot adjusts the explanation to match the user's expertise level.
 
 
 ## Non-Functional Requirements
