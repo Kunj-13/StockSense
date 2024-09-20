@@ -39,31 +39,29 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 
 
 
-## Non-Functional Requirements
+### Non-Functional Requirements
 
-### 1. Scalability
+### 1. Basic Scalability
 
-**Requirement:** The StockSense system must be able to handle multiple concurrent requests from users without a degradation in performance.
+- **Requirement**: The MVP must handle at least a small number of concurrent users without crashes or significant delays.
+  
+- **Description**: StockSense website should be able to handle a limited number of concurrent users querying stock prices and getting basic responses from the chatbot. The system does not need to support a massive user base but should handle the expected number of early users comfortably. Basic load balancing and minimal server resources should be in place to ensure performance under limited load.
+  
+- **Justification**: While scalability isn't the main focus, but the system needs to be reliable enough to serve our users without crashes or long delays.
 
-**Description:** As the chatbot is expected to serve both new and experienced traders, it must be able to scale to accommodate a growing number of users, especially during peak market hours or significant financial events. The infrastructure should allow horizontal scaling, where additional resources (e.g., servers) can be added dynamically as demand increases.
+### 2. Basic Security
+**Requirement:** StockSense must implement simple security measures to protect API keys and user data.
 
-**Justification:** A scalable system ensures that StockSense remains responsive even as the user base expands or when high-traffic conditions occur (e.g., after a Federal Reserve speech).
+- **Description:** The MVP version should use basic encryption for data transmissions between the client and server. API keys for external services (like yfinance) should be securely stored, and basic authentication should be implemented to ensure only authorized users can access certain features. Sensitive user data should not be stored locally in the application.
 
-### 2. Security and Privacy
+- **Justification:** Basic security will help protect users and prevent unauthorized access, ensuring users trust the system to some extent without needing full-fledged security protocols.
 
-**Requirement:** StockSense must ensure the security of all user interactions and protect sensitive financial data according to industry standards.
+### 3. Basic Usability
+- **Requirement:** StockSense must provide a simple and clear chatbot interface that responds accurately to basic stock-related queries.
 
-**Description:** The application should use encryption (e.g., HTTPS, SSL/TLS) for data transmission and securely store user-related data, including trading preferences and financial insights. The system must comply with relevant financial and data protection regulations, ensuring that personal and trading data is not shared or accessed by unauthorized entities. User authentication should be secure, perhaps with multi-factor authentication (MFA).
+- **Description:** The chatbot should be able to handle basic user requests, such as asking for current stock prices, basic market guidance (e.g., bullish or bearish -signals), and simple definitions of key financial terms. The UI should focus on clarity and ease of use, allowing even new traders to interact with the chatbot without needing extensive financial knowledge.
 
-**Justification:** Traders, both new and experienced, need to trust that their data and interactions with StockSense are secure and private. Data breaches or weak security could lead to significant financial and reputational damage.
-
-### 3. Usability
-
-**Requirement:** The StockSense chatbot must provide a user-friendly interface and deliver an intuitive, seamless experience for both new and experienced traders.
-
-**Description:** The chatbot should have a simple, conversational interface that is easy to navigate and capable of handling complex queries. It should provide clear, jargon-free guidance for new traders while offering more in-depth analysis for experienced users. Tooltips, financial glossaries, and contextual help should be integrated to assist users in understanding trading concepts like the Greeks (e.g., delta, gamma).
-
-**Justification:** Given the broad target audience (both novice and experienced traders), the application needs to cater to various levels of financial literacy. A positive user experience will increase engagement and encourage wider adoption.
+- **Justification:** The MVP should focus on ease of use, ensuring that users can interact with the chatbot in a straightforward way without overwhelming them with complex features or financial jargon.
 
 
 
