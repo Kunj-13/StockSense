@@ -102,7 +102,45 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 
 
 ## Team Process Description
+###Software Toolset
+* Python for data processing, machine learning, and API integration.
+* JavaScript/React for front-end development and creating user interfaces.
+* TensorFlow/PyTorch for building and training the LLM
+* Flask/Django for back-end development and RESTful APIs
+* Yahoofinance for API and accessing stock data
+* Git for version control
 
+### Team Roles and Justifications
+* ML Developers Navid and Kunj to lead development of the LLM and ensure the technical aspects of the project work correctly.
+* Front-End developers Tahira and Neville to develop user interface.
+* Back-End Developers Krish and Sahil to develop server-side logice, APIs, and database management. Neccessary to handle data processing, storage, and integration with front-end.
+
+### Development Schedule
+#### Machine Learning Developers
+* Week 1-2: Define scope of project, gather requirements
+* Week 3-6: Set up development environment, start building LLM
+* Week 7-10: Integration and Testing of ML models
+* Week 11-14: Refinement and Optimization
+* Week 15-16: Final Testing and Deployment
+#### Front-End Developers
+* Week 1-2: Define scope of project, gather requirements
+* Week 3-6: Set up development environment, start building LLM
+* Week 7-10: Integrate user interface with ML models and backend
+* Week 11-14: Refinement and Optimization
+* Week 15-16: Final Testing and Deployment
+#### Back-End Developers
+* Week 1-2: Define scope of project, gather requirements
+* Week 3-6: Set up development environment, start building LLM
+* Week 7-10: Integrate LLM with front-end and back-end and perform unit testing
+* Week 11-14: Refinement and Optimization
+* Week 15-16: Final Testing and Deployment
+
+### Major Risks
+* Data Quality: Inaccurate or incomplete financial data leading to incorrect predictions
+* Model Performance: LLM may not perform as expected for real-world scenarios
+* Scalability Issues: System may not handle many users well nor large amounts of data
+
+  External feedback will be most helpful during the integration and testing phase of the project. We will also need to conduct user testing sessions and gather feedback from potential users.
 
 
 
