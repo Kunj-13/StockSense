@@ -76,7 +76,6 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 **Trigger:** The user seeks advice on which stock options to consider based on current market conditions.
 
 ### Preconditions:
-- The user is logged into the StockSense chatbot.
 - The chatbot has access to real-time option data and market analysis tools.
 
 ### Postconditions (Success Scenario):
@@ -170,7 +169,6 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 **Trigger:** The user wants to set up personalized alerts for specific trading conditions.
 
 ### Preconditions:
-- The user is logged into their StockSense account.
 - The chatbot has the capability to monitor market conditions and send notifications.
 
 ### Postconditions (Success Scenario):
