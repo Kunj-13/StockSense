@@ -249,11 +249,10 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 
 
 ## External Requirements
-
 ### Robustness Against Errors
 - Input Validation:
--  StockSense must validate all user inputs, such as stock symbols, dates, or queries, to ensure correctness and prevent errors. For instance, if a user requests stock data for an invalid ticker symbol, the system should return an informative error message and suggest corrective actions (e.g., "The symbol you entered is invalid. Please try again with a valid stock symbol like AAPL or TSLA").
--nError Handling for API Failures:
+  StockSense must validate all user inputs, such as stock symbols, dates, or queries, to ensure correctness and prevent errors. For instance, if a user requests stock data for an invalid ticker symbol, the system should return an informative error message and suggest corrective actions such as, "The symbol you entered is invalid. Please try again with a valid stock symbol like AAPL or TSLA").
+-Error Handling for API Failures:
  The system should gracefully handle cases where third-party APIs (e.g., stock data providers like yfinance) are unavailable, slow to respond, or return errors. For example, in case of an API failure, the chatbot could inform the user ("Currently unable to retrieve stock data. Please try again later.").
 ### Product Accessibility
 - Ease of Use: The web app should require no installation for end users. A user can simply visit the URL and begin interacting with the chatbot, with no additional steps required other than account creation.
@@ -267,14 +266,14 @@ Detailed instructions must be provided to guide developers through setting up th
 ### Project Scope
 - Team Member Allocation:
   The scope of StockSense should match the resources available within the team. For example, the development effort should be broken down into manageable sections such as:
-* Frontend UI (chatbot interface).
-* Backend logic (API integrations, AI model).
-* Data sources (integrating yfinance, stock option APIs).
+  Frontend UI (chatbot interface).
+  Backend logic (API integrations, AI model).
+  Data sources (integrating yfinance, stock option APIs).
 - Feature Prioritization:
-The team should prioritize the core features (e.g., stock data retrieval, basic trading advice) and clearly define stretch goals (e.g., sentiment analysis, option strategies) based on the number of developers and time available.
+  The team should prioritize the core features (e.g., stock data retrieval, basic trading advice) and clearly define stretch goals (e.g., sentiment analysis, option strategies) based on the number of developers and time available.
 ### Documentation
 - Comprehensive User Guide: 
- A user manual must be included to help new users understand how to interact with StockSense, including common commands, chatbot features, and error handling tips.
+  A user manual must be included to help new users understand how to interact with StockSense, including common commands, chatbot features, and error handling tips.
 - Developer Documentation:
 - The system should include developer-focused documentation (e.g., code comments, API reference guides) to help new developers contribute to the project, troubleshoot issues, and add new features.
 
