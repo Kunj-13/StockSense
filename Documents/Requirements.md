@@ -39,7 +39,7 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 
 
 
-### Non-Functional Requirements
+## Non-Functional Requirements
 
 ### 1. Basic Scalability
 
