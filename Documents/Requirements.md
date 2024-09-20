@@ -35,7 +35,32 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 
 ## Use Cases (Functional Requirements)
 
+##Use Case 1: Stock Data Inquiry
+#Actors: Trader (User)
 
+#Trigger: The user wants to know the current price of a specific stock.
+
+#Preconditions:
+-The user is logged into the StockSense chatbot.
+-The chatbot is connected to live stock data APIs (e.g., yfinance).
+Postconditions (Success Scenario):
+-The user receives accurate and up-to-date information about the requested stock.
+#List of Steps (Success Scenario):
+-The user initiates a conversation with the chatbot.
+-The user inputs a query (e.g., "What is the current price of AAPL?").
+-The chatbot parses the query and identifies the stock ticker symbol.
+-The chatbot retrieves real-time data for AAPL from the stock data API.
+-The chatbot displays the current price along with additional details like opening price, closing price, and day's high and low.
+#Extensions/Variations:
+-The user asks for historical data (e.g., "Show me AAPL's stock price over the past month.").
+-The user inquires about multiple stocks at once (e.g., "What are the current prices of AAPL, MSFT, and GOOGL?").
+#Exceptions (Failure Conditions and Scenarios):
+-Invalid Stock Symbol: The user enters an unrecognized ticker symbol.
+--Resolution: The chatbot informs the user that the symbol is invalid and prompts for a valid one.
+-API Failure: The stock data API is unavailable.
+--Resolution: The chatbot apologizes for the inconvenience and suggests trying again later.
+-Connectivity Issues: The user's internet connection is lost.
+--Resolution: The chatbot detects the disconnection and advises the user to check their internet connection.
 
 
 
