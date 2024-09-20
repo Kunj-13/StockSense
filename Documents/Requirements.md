@@ -235,7 +235,7 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 ### 2. Basic Security
 **Requirement:** StockSense must implement simple security measures to protect API keys and user data.
 
-- **Description:** The MVP version should use basic encryption for data transmissions between the client and server. API keys for external services (like yfinance) should be securely stored, and basic authentication should be implemented to ensure only authorized users can access certain features. Sensitive user data should not be stored locally in the application.
+- **Description:** The web appication should use basic encryption for data transmissions between the client and server. API keys for external services (like yfinance) should be securely stored, and basic authentication should be implemented to ensure only authorized users can access certain features. Sensitive user data should not be stored locally in the application.
 
 - **Justification:** Basic security will help protect users and prevent unauthorized access, ensuring users trust the system to some extent without needing full-fledged security protocols.
 
