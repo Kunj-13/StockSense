@@ -162,35 +162,35 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
   **Resolution:** The chatbot apologizes and recommends trying again later.
 
 
-## Use Case 5: Personalized Trading Alerts
+## Use Case 5: Risk Assessment and Management Advice
 
 **Actors:** Trader (User)
 
-**Trigger:** The user wants to set up personalized alerts for specific trading conditions.
+**Trigger:** The user wants to assess the risk level of a potential investment and receive advice on risk management strategies.
 
 ### Preconditions:
-- The chatbot has the capability to monitor market conditions and send notifications.
+- The user is logged into the StockSense chatbot.
+- The chatbot has access to financial data and risk assessment tools.
 
 ### Postconditions (Success Scenario):
-- The user receives timely alerts that match their predefined criteria.
+- The user gains insights into the risk associated with a specific investment and receives recommendations on how to manage that risk.
 
 ### List of Steps (Success Scenario):
-1. The user communicates with the chatbot (e.g., "Set an alert for when GOOGL drops below $2,500.").
-2. The chatbot confirms the alert details with the user.
-3. The chatbot saves the alert criteria in the user's profile.
-4. The system continuously monitors GOOGL's stock price.
-5. When the price drops below $2,500, the chatbot sends a notification to the user.
-6. The user receives the alert and can decide to take action.
+1. The user asks the chatbot (e.g., "What is the risk level of investing in XYZ Corp?" or "How risky is it to invest in cryptocurrency right now?").
+2. The chatbot analyzes the volatility, market trends, and other risk indicators for the specified investment.
+3. The chatbot calculates risk metrics such as Beta, Value at Risk (VaR), and standard deviation.
+4. The chatbot presents the risk assessment to the user, explaining the findings in understandable terms.
+5. The chatbot offers advice on risk management strategies (e.g., diversification, hedging).
 
 ### Extensions/Variations:
-- The user sets up complex alerts (e.g., "Alert me when the 50-day moving average crosses the 200-day moving average for AMZN.").
-- The user chooses preferred notification methods (email, SMS, app notification).
+- The user requests a comparison of risk between multiple investments.
+- The user asks for personalized risk management strategies based on their risk tolerance.
 
 ### Exceptions (Failure Conditions and Scenarios):
-- **Monitoring Failure:** The system fails to monitor the condition due to technical issues.  
-  **Resolution:** The chatbot informs the user of the failure when detected and works to restore monitoring.
-- **Invalid Alert Criteria:** The user sets an impossible or illogical alert.  
-  **Resolution:** The chatbot prompts the user to adjust the criteria to valid parameters.
+- **Insufficient Data:** Not enough data is available to perform a risk assessment.
+- **Resolution:** The chatbot informs the user and suggests alternative investments or methods.
+- **Complexity Overload:** The user is overwhelmed by technical jargon.
+- **Resolution:** The chatbot simplifies the explanation and offers to elaborate on specific terms if needed.
 
 
 ## Use Case 6: Educational Content Access
