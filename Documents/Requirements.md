@@ -42,7 +42,6 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 **Trigger:** The user wants to know the current price of a specific stock.
 
 ### Preconditions:
-- The user is logged into the StockSense chatbot.
 - The chatbot is connected to live stock data APIs (e.g., yfinance).
 
 ### Postconditions (Success Scenario):
@@ -66,6 +65,8 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
   **Resolution:** The chatbot apologizes for the inconvenience and suggests trying again later.
 - **Connectivity Issues:** The user's internet connection is lost.  
   **Resolution:** The chatbot detects the disconnection and advises the user to check their internet connection.
+
+---
 
 
 ### Use Case 2: Stock Option Guidance
