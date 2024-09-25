@@ -51,8 +51,12 @@ N/A – it is the first week.
 - Finding out which ML model will be best for this project.
 - Finding out how to integrate the data to get the best results. 
 
-### Tahira
-Tahira I will be working on the Front-End: The front end is built using HTML, CSS, and JavaScript for dynamic interactions. A framework such as React.js or Vue.js can be used to enhance the user experience.
+## Tahira
+### Subsection 1: 
+Last week, I was leaning towards dJango, so I spent time on setting up dJango, But now I switched to react. I have no prior knowledge of react and I am watching tutorials on react. Having trouble in setting the react on.
+I worked on the design of the app, created a basic html code.
+
+### Subsection 2:
 
 ### Krish
 
