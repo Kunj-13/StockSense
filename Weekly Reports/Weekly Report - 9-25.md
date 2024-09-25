@@ -86,5 +86,23 @@ This week, I helped organize the team into 3 different groups. I also found some
 - Determine whether it's better to use a web scraper or simply download PDFs of the speeches.
 
 ### Neville
+
+## Last Week's Goals:
 - I've been refreshing on my HTML and CSS knowledge, plus looking into JavaScript and frameworks that use it, including Electron and React. We frontenders shall coordinate and decide on which to use after weighing pros and cons for each.
 - Primarily, I have been stuck on what to use, but that is expected when trying to pick software. It is quite a bit to choose from, especially ones I haven't worked with or ones I'm not sure can do what we want. But, we will give it a shot!
+
+## This Week's Summary and Status:
+- This week, I worked on getting a basic React program started, trying to follow documentation and guides, plus learn enough Javascript to help me.
+- I succeeded in creating a basic React program that functions correctly (it is pushed in the Git already, as a link to a zip folder).
+- I also got my installations to work properly and the IDE (Visual Studio Code) to work for me somewhat.
+- I experimented with the React program, tried to figure out its flow, and see what could be added.
+- I am currently stuck on how to make the program work out of the box, but this is a goal probably due for weeks in advance...
+- I am also stuck on thinking of how this program should exactly work. Is it run locally but still needs internet? Or off a server of some kind? This will probably be figured out in the weeks to come.
+- I'm also technically stuck on learning React and JS, but that's just natural for right now.
+
+## Plans And Goals:
+- One thing at a time. I will continue to learn React, and help my teammate get synced so we can work on it better together.
+- Get more information about the program ironed out, hopefully this Friday, so I can make a plan based on more refined requirements on top of the old ones.
+- Try to see if I can add even more to my test React program, so that it means I didn't just hit a wall immediately (as in, I don't have to upend and change everything if it is insufficient for my needs)
+- Look into better ways to develop my code. I might be missing out.
+- Try to communicate even more with my team. That would never hurt to do.
