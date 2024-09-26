@@ -29,14 +29,21 @@ This week, we worked on figuring out who is responsible for each part of the pro
 ## Kunj 
 
 ### Subsection 1:
-N/A it is the first week
+- Mainly set up the environment
+- Getting start on exploring the dataset that we all agree to use for project.
 
 ### Subsection 2:
-I will mainly work on the machine-learning aspect with Navid for the project. For this week, I have just started going through different materials and researching what machine-learning models we will use. Not just that but also going through videos and articles to get a grasp of the project and finalize the features we would like our project to have so we can actually get started on working on the project next week.
+- First of all, I went through the videos Navid provided to get a grasp of the project which were very informational and went through other sources that I thought could be beneficial.
+- I have also been researching and going through different machine learning models as we are still deciding which machine learning models we are going to use.
+- I also explored the yahoo finance data as we decided that we are going to use the YFinance API for retrieving stock data and sort been going through different videos to see how we can integrate it.
+- After going through different API's we were thinking about using for LLMs, we decided to stick with OpenAI's API so I spent time learning how we can integrate it in our proram. 
 
 ### Subsection 3
-- Next week, mainly set up the environment
-- Getting start on exploring the dataset that we all agree to use for project. 
+- By end of next week, finalize the machine learning model selection for stock price prediction.
+- Also, set up the development environment to start integrating the selected models and APIs.
+- Try to learn more about YFinance API and do basic experimenting with retrieving stock data from the YFinance API by running basic API requests.
+- Last thing, I would like to do is get familar is OpenAI's API as it's my first time using it and would really like to get to know more about it. 
+
 
 ## Sahil
 ### Subsection 1: 
