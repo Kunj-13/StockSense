@@ -40,17 +40,22 @@ I will mainly work on the machine-learning aspect with Navid for the project. Fo
 
 ## Sahil
 ### Subsection 1: 
-N/A – it is the first week.
-
-### Subsection 2:
-- I've been watching videos to figure out where to get a good dataset that we can easily integrate into the code.
-- I’ve also been checking out which machine learning model and LLM would work best for this project, and looking into the features we’ll need to add. 
-
-### Subsection 3: 
 - Finding a good dataset to use.
 - Finding out which ML model will be best for this project.
 - Finding out how to integrate the data to get the best results. 
 
+### Subsection 2:
+- I've been watching videos to figure out how to integrate Yahoo API data and am also looking into fed Speech.
+- I’ve also been checking out which machine learning model and LLM work best with stock predictions.
+- I've also been looking into other projects to look at which features would be the best to add in the project.
+- I've also looked into the best way to format the JSON file so the front-end can use the data.
+
+### Subsection 3: 
+- Finding out which ML model will be best for this project.
+- Finding out how to integrate the data into the JSON file so we can then tell front-end what we should look into adding.
+- Find out how we want our front-end to look.
+  
+  
 ## Tahira
 ### Subsection 1: 
 - Last week, I was leaning towards Django, so I spent time setting it up. (I am not using Django anymore) 
@@ -78,7 +83,6 @@ Next weeks Goal:
 - It's difficult to know what to do right now since we are still figuring out how we will use ML/AI models so I'm trying my best to help the ML team with choosing the models to train and the datasets we will use. So far we are thinking of using YFinance's API
 - Learned more about JSON format and how we will be passing to the front end
 - Saw some videos about React so I can understand what the front end team will be doing at a higher level so that we have good data flow from back end to front end
-
 
 ## Subsection 3: 
 - I want to coordinate with the group and make sure we are all on the same page for how we will push commits to the repository without screwing up eachother's work
