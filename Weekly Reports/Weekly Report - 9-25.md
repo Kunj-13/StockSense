@@ -107,7 +107,7 @@ Next weeks Goal:
 - Figure out how to embed the PDFs found online.
 - If possible, actually embed the documents.
 - Semi-finalize the vector database where embeddings will reside (might start with **ChromaDB**, but will switch to **Pinecone** if needed).
-- Ensure that everyone on the team is clear on the precise project goals, particularly regarding how the project will work. This includes discussing whether the system can handle **stock data** or **live option data**, and considering any necessary changes to the internal structure.
+- Ensure that everyone on the team is clear on the precise project goals, particularly regarding how the project will work. This includes discussing whether the project can handle **stock data** or **live option data**, and considering any necessary changes to the internal structure.
 
 ### Neville
 
