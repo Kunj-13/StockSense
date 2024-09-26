@@ -59,7 +59,7 @@ N/A – it is the first week.
 - I watched a tutorial yesterday and figure it out how to proceed with react. I worked on the design of the app, created a basic html code.
 - Yesterday, I had a meeting with Neville and told him the trouble I am having in setting up react, He also having the same problem which he fixed it later.
 
-Subsection 2:
+### Subsection 2:
 Next weeks Goal:
 - Establish the folder structure to organize components efficiently.
 - Create initial components: StockList, StockDetails, and SearchBar.
