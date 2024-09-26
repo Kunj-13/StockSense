@@ -1,27 +1,33 @@
 # Team Report
 
+# Project Update
+
 ## Subsection 1: What We Did From Last Section
-N/A – it is week 1.
-
-## Subsection 2: What We Did
-This week, we worked on figuring out who is responsible for each part of the project:
-
-- **Navid and Kunj**: Working on the machine learning aspects with the LLM (Language Model).
-- **Krish and Sahil**: Focusing on the backend development.
-- **Tahira and Neville**: Responsible for the frontend of the project.
-
-### Where We Had Troubles:
-- Not everybody shows up to our section in person, and some are only on Zoom. This has led to slight communication issues, but we expect this to be resolved by next week.
-- Not all of us have the same experience using software like Git, or other programs. As we use them and get help, we will learn, so this issue will be resolved quickly.
-
-## Subsection 3: Goals for the Following Weeks
 - Improve our method of communication and ensure everyone is on the same page.
 - For the machine learning and backend team, learn more about what an LLM is and how to deploy one.
 - For the frontend team, figure out the best approach to develop the frontend of the project.
 - Settle definitively on which software tools we will use.
-- Identify where to obtain Powell's speeches.
+- Identify where to obtain **Powell's speeches**.
 - Create either a web scraper tool or download PDFs of the speeches.
 - Convert the PDFs of the speeches into a format suitable for the LLM.
+
+## Subsection 2: What We Did
+Summary of which team did what 
+- **Navid and Kunj (Machine Learning)**: Decided to use **OpenAI's model**, found some **Federal Open Market Committee documents** that we can embed for the LLM.
+- **Krish and Sahil (Backend)**: Helped in the decision of which model to use and learned more about the **JSON format**, which will be used to pass data to the frontend. They also assisted both the **Machine Learning** and **Frontend** teams with their tasks.
+- **Tahira and Neville (Frontend)**: Started learning **React** for frontend development.
+
+### Where We Had Troubles:
+- There really wasn’t much trouble this week as we haven’t fully started intensive coding. This was more of a final discovery week before all of the coding starts.
+- The only minor "trouble" was adjusting to new frameworks like **OpenAI's API**, **React JS**, and **yfinance**. However, this is a simple issue that can be resolved by experimenting more with these tools to get more familiar.
+
+## Subsection 3: Goals for the Following Weeks
+- Finalize the **vector database** decision or get closer to a decision.
+- Learn how to embed documents and then embed the PDFs we have.
+- Get more familiar with the various tools we are working with, like **yfinance**, **OpenAI**, and **React JS**.
+- Start designing parts of the frontend, such as the **UI layout** with **CSS** and basic **JSX**.
+- Meet more consistently, aiming for at least one additional meeting beyond Fridays and the few messages exchanged throughout the week.
+
 
 # Individual Report
 
