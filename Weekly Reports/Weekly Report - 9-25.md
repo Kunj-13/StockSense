@@ -53,10 +53,18 @@ N/A – it is the first week.
 
 ## Tahira
 ### Subsection 1: 
-Last week, I was leaning towards dJango, so I spent time on setting up dJango, But now I switched to react. I have no prior knowledge of react and I am watching tutorials on react. Having trouble in setting the react on.
-I worked on the design of the app, created a basic html code.
+- Last week, I was leaning towards Django, so I spent time setting it up. (I am not using Django anymore) 
+- Now I am switched to react. I have no prior knowledge of react and spent time watching tutorials on react. 
+- I was having trouble in installing the necessary dependencies.
+- I watched a tutorial yesterday and figure it out how to proceed with react. I worked on the design of the app, created a basic html code.
+- Yesterday, I had a meeting with Neville and told him the trouble I am having in setting up react, He also having the same problem which he fixed it later.
 
-### Subsection 2:
+Subsection 2:
+Next weeks Goal:
+- Establish the folder structure to organize components efficiently.
+- Create initial components: StockList, StockDetails, and SearchBar.
+- Start designing the UI layout using CSS and basic JSX.
+
 
 ### Krish
 
