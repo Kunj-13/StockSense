@@ -16,7 +16,7 @@ This week, we worked on figuring out who is responsible for each part of the pro
 
 ## Subsection 3: Goals for the Following Weeks
 - Improve our method of communication and ensure everyone is on the same page.
-- For the machine learning and backend team, learn more about what an LLM is and how to create one.
+- For the machine learning and backend team, learn more about what an LLM is and how to deploy one.
 - For the frontend team, figure out the best approach to develop the frontend of the project.
 - Settle definitively on which software tools we will use.
 - Identify where to obtain Powell's speeches.
