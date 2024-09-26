@@ -91,17 +91,23 @@ Next weeks Goal:
 
 ### Navid Hoque
 
-## Subsection 1: 
-N/A – it is the first week.
-
-## Subsection 2:
-This week, I helped organize the team into 3 different groups. I also found some learning materials to help everyone get started.
-
-## Subsection 3: 
+## Subsection 1: Last Week’s Goals
 - Find more material about LLMs and send it to the group.
 - Figure out which model will be best for the project.
 - Identify where to find the Fed speeches.
 - Determine whether it's better to use a web scraper or simply download PDFs of the speeches.
+
+## Subsection 2: What We Did
+- Decided which chat model to go with: **OpenAI’s model**.
+- Found some PDFs of a decent selection of **Jerome Powell statements** as well as **meeting minutes**.
+- Still working on deciding which vector database to use, debating between **Pinecone** and **ChromaDB**.
+- Found more material to send to the **Machine Learning** and **Backend** teams to further familiarize themselves with deploying an LLM.
+
+## Subsection 3: Plans and Goals
+- Figure out how to embed the PDFs found online.
+- If possible, actually embed the documents.
+- Semi-finalize the vector database where embeddings will reside (might start with **ChromaDB**, but will switch to **Pinecone** if needed).
+- Ensure that everyone on the team is clear on the precise project goals, particularly regarding how the project will work. This includes discussing whether the system can handle **stock data** or **live option data**, and considering any necessary changes to the internal structure.
 
 ### Neville
 
