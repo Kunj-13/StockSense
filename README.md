@@ -15,7 +15,7 @@ Stock Market Data Access: Retrieve and analyze current and past stock data, like
 Stock Option Knowledge: Integrate stock option data, including metrics like the Greeks (Delta, Gamma, Theta, etc.), to enhance the quality of market predictions.
 Market Analysis: Provide advice on whether the market is bullish or bearish and recommend appropriate trading strategies.
 
-Stretch Goals:
+- Stretch Goals:
 
 Financial Glossary: Create a glossary to improve the chatbot’s comprehension of complex financial terms and data.
 Sentiment Analysis: Perform sentiment analysis on news articles to create a more comprehensive knowledge base for market predictions.
