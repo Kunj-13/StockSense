@@ -1,9 +1,8 @@
-# Section 1
-## Conceptual data model diagram
+# Section 1 - Conceptual data model diagram               Kunj Patel, Sahil Patel
 
 ![image](https://github.com/user-attachments/assets/32c24499-253f-4d65-a1b6-52c57a4045e7)
 
-# Section 2
+# Section 2 - Relationship Descriptions:
 
 ## USER to ORDER relationship:
 
@@ -35,17 +34,17 @@
 - Description: When a user selects a dish to add to their order, the dish_id is used to create an ORDER_ITEM record. This links the specific dish details (name, price, description) to the order item, ensuring accurate order composition and pricing.
 
 
-ORDER to PAYMENT relationship:
+## ORDER to PAYMENT relationship:
 
 - Data flow: Order → Payment
 - Description: Once an order is finalized, a PAYMENT record is created and associated with the ORDER using the order_id. This allows the system to track payment status for each order. The order's total amount is used to set the payment amount, and the payment method chosen by the user is recorded.
 
 
-USER to RESTAURANT:
+## USER to RESTAURANT:
 
 - While there's no direct relationship in the diagram, users interact with restaurants by browsing their menus (dishes) and placing orders. The system uses the restaurant_id associated with dishes and orders to present relevant information to users.
 
 
-DISH to ORDER:
+## DISH to ORDER:
 
 - Dishes are connected to orders through the ORDER_ITEM entity. This allows the system to calculate order totals, track popular dishes, and provide detailed order information to both users and restaurants.
