@@ -35,14 +35,13 @@ Summary of which team did what
 ## Kunj 
 
 ### Subsection 1:
-- Mainly set up the environment
-- Getting start on exploring the dataset that we all agree to use for project.
+- By end of next week, finalize the machine learning model selection for stock price prediction.
+- Also, set up the development environment to start integrating the selected models and APIs.
+- Try to learn more about YFinance API and do basic experimenting with retrieving stock data from the YFinance API by running basic API requests.
+- Last thing, I would like to do is get familar is OpenAI's API as it's my first time using it and would really like to get to know more about it. 
 
 ### Subsection 2:
-- First of all, I went through the videos Navid provided to get a grasp of the project which were very informational and went through other sources that I thought could be beneficial.
-- I have also been researching and going through different machine learning models as we are still deciding which machine learning models we are going to use.
-- I also explored the yahoo finance data as we decided that we are going to use the YFinance API for retrieving stock data and sort been going through different videos to see how we can integrate it.
-- After going through different API's we were thinking about using for LLMs, we decided to stick with OpenAI's API so I spent time learning how we can integrate it in our proram. 
+- First of all, the main thing I worked on this week was writing the code that embedded the files 
 
 ### Subsection 3
 - By end of next week, finalize the machine learning model selection for stock price prediction.
