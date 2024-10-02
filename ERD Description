@@ -1,0 +1,13 @@
+# StockSense ERD Description
+
+## Dataflow
+### User to UserQuery
+- Flow: A user submits queries to the chatbot.
+- Details: The chatbot stores each query (QueryText) along with a timestamp (Date) and the response. This allows the chatbot to maintain a history of user interactions for reference and improvement.
+### User to UserPreferences
+- Flow: A user sets preferences for trading, which are stored in the UserPreferences entity.
+- Details: Preferences such as PreferredSectors, RiskTolerance, and OptionTradingStrategy are linked to the UserID. This allows the chatbot to tailor responses and suggestions based on individual user preferences.
+### User to TradingHistory
+- Flow: As users execute trades, data is logged in TradingHistory.
+- Details: Each trade (TradeType, Quantity, PriceAtTrade, TradeDate, ProfitLoss) is associated with a UserID, allowing the chatbot to analyze past trades and provide feedback or recommendations based on historical performance.
+### 
