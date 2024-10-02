@@ -2,32 +2,25 @@
 
 # Project Update
 
-## Subsection 1: What We Did From Last Section
-- Improve our method of communication and ensure everyone is on the same page.
-- For the machine learning and backend team, learn more about what an LLM is and how to deploy one.
-- For the frontend team, figure out the best approach to develop the frontend of the project.
-- Settle definitively on which software tools we will use.
-- Identify where to obtain **Powell's speeches**.
-- Create either a web scraper tool or download PDFs of the speeches.
-- Convert the PDFs of the speeches into a format suitable for the LLM.
-
-## Subsection 2: What We Did
-Summary of which team did what 
-- **Navid and Kunj (Machine Learning)**: Decided to use **OpenAI's model**, found some **Federal Open Market Committee documents** that we can embed for the LLM.
-- **Krish and Sahil (Backend)**: Helped in the decision of which model to use and learned more about the **JSON format**, which will be used to pass data to the frontend. They also assisted both the **Machine Learning** and **Frontend** teams with their tasks.
-- **Tahira and Neville (Frontend)**: Started learning **React** for frontend development.
-
-### Where We Had Troubles:
-- There really wasn’t much trouble this week as we haven’t fully started intensive coding. This was more of a final discovery week before all of the coding starts.
-- The only minor "trouble" was adjusting to new frameworks like **OpenAI's API**, **React JS**, and **yfinance**. However, this is a simple issue that can be resolved by experimenting more with these tools to get more familiar.
-
-## Subsection 3: Goals for the Following Weeks
-- Finalize the **vector database** decision or get closer to a decision.
+## Subsection 1: What We Did Last Week
+- Finalize the vector database decision or get closer to a decision.
 - Learn how to embed documents and then embed the PDFs we have.
-- Get more familiar with the various tools we are working with, like **yfinance**, **OpenAI**, and **React JS**.
-- Start designing parts of the frontend, such as the **UI layout** with **CSS** and basic **JSX**.
+- Get more familiar with the various tools we are working with, like yfinance, OpenAI, and React JS.
+- Start designing parts of the frontend, such as the UI layout with CSS and basic JSX.
 - Meet more consistently, aiming for at least one additional meeting beyond Fridays and the few messages exchanged throughout the week.
 
+## Subsection 2: What We Did
+- **Navid and Kunj (Machine Learning):** We created functions to convert the PDFs of the FOMC documents into CSV files, then used OpenAI to embed the documents into a new CSV file.
+- **Krish and Sahil (Back-End):** Made the decision to use Qdrant vector database to store the embeddings and set up the vector database.
+- **Tahira and Neville (Front-End):** WILL UPDATE BEFORE SUBMISSION.
+
+### Troubles
+There were no significant troubles on the machine learning and backend side.
+
+## Subsection 3: What We Will Do Next
+- Finish embedding all of the documents and organize everything in GitHub.
+- Once everything is embedded, the CSV files will be uploaded into the vector database.
+- Split the back-end group temporarily to assist the front-end and machine learning teams, as there are fewer tasks for them currently. This will change in the coming weeks.
 
 # Individual Report
 
