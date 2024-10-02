@@ -61,17 +61,21 @@ There were no significant troubles on the machine learning and backend side.
   
 ## Tahira
 ### Subsection 1: 
-- Last week, I was leaning towards Django, so I spent time setting it up. (I am not using Django anymore) 
-- Now I am switched to react. I have no prior knowledge of react and spent time watching tutorials on react. 
-- I was having trouble in installing the necessary dependencies.
-- I watched a tutorial yesterday and figure it out how to proceed with react. I worked on the design of the app, created a basic html code.
-- Yesterday, I had a meeting with Neville and told him the trouble I am having in setting up react, He also having the same problem which he fixed it later.
+
+This week:
+
+React Setup: We began setting up the frontend framework using React.
+Initialized the React app.
+Installed necessary dependencies (e.g., React Router, Axios for HTTP requests).
+Established the folder structure to organize components efficiently.
+Created initial components: StockList, StockDetails, and SearchBar.
 
 ### Subsection 2:
+
 Next weeks Goal:
-- Establish the folder structure to organize components efficiently.
-- Create initial components: StockList, StockDetails, and SearchBar.
-- Start designing the UI layout using CSS and basic JSX.
+
+ Research on data visualization libraries such as Chart.js and D3.js for displaying stock trends and analysis.
+
 
 
 ### Krish
