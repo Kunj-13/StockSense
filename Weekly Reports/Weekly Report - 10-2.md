@@ -52,9 +52,9 @@ Summary of which team did what
 
 ## Sahil
 ### Subsection 1: 
-- Finding a good dataset to use.
 - Finding out which ML model will be best for this project.
-- Finding out how to integrate the data to get the best results. 
+- Finding out how to integrate the data into the JSON file so we can then tell front-end what we should look into adding.
+- Find out how we want our front-end to look.
 
 ### Subsection 2:
 - I've been watching videos to figure out how to integrate Yahoo API data and am also looking into fed Speech.
@@ -63,9 +63,7 @@ Summary of which team did what
 - I've also looked into the best way to format the JSON file so the front-end can use the data.
 
 ### Subsection 3: 
-- Finding out which ML model will be best for this project.
-- Finding out how to integrate the data into the JSON file so we can then tell front-end what we should look into adding.
-- Find out how we want our front-end to look.
+
   
   
 ## Tahira
