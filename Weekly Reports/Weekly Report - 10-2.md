@@ -84,15 +84,20 @@ Next weeks Goal:
 ### Krish
 
 ## Subsection 1: 
-- Looking for good dataset
-- Researching ML models
-
-## Subsection 2:
 - I watched the videos Navid provided to understand the basic direction of the project and how LLMs can be used.
 - After looking at different APIs for LLMs we are leaning towards using OpenAI so I learned more about its API and how to incorporate it into our program
 - It's difficult to know what to do right now since we are still figuring out how we will use ML/AI models so I'm trying my best to help the ML team with choosing the models to train and the datasets we will use. So far we are thinking of using YFinance's API
 - Learned more about JSON format and how we will be passing to the front end
 - Saw some videos about React so I can understand what the front end team will be doing at a higher level so that we have good data flow from back end to front end
+
+
+## Subsection 2:
+- Learned more about OpenAI API and how we will be using it to train our models
+- Installed some of the dependencies for libraries we will be using in the backend
+- configured vscode to be able to use it wifh githun repository
+- Watched more videos on JSON and how to format data
+
+
 
 ## Subsection 3: 
 - I want to coordinate with the group and make sure we are all on the same page for how we will push commits to the repository without screwing up eachother's work
