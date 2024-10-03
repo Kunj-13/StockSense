@@ -48,17 +48,21 @@ There were no significant troubles on the machine learning, backend side, nor fr
 
 ## Sahil
 ### Subsection 1: 
+- Finding a good dataset to use.
 - Finding out which ML model will be best for this project.
-- Finding out how to integrate the data into the JSON file so we can then tell front-end what we should look into adding.
-- Find out how we want our front-end to look.
+- Finding out how to integrate the data to get the best results. 
 
 ### Subsection 2:
-- I've been watching videos to figure out how to integrate Yahoo API data and am also looking into fed Speech.
-- I’ve also been checking out which machine learning model and LLM work best with stock predictions.
-- I've also been looking into other projects to look at which features would be the best to add in the project.
-- I've also looked into the best way to format the JSON file so the front-end can use the data.
-  
-  
+- I've been watching videos Navid has sent to the group so we can start coding.
+- I’ve also been testing out the YFinance API and looking at how we are going to use it. 
+- I've also been looking at the Fed speeches and trying to figure out what the best way to use them would be.
+- I've still looking into the best way to format the JSON file so the front-end can use the data.
+
+### Subsection 3: 
+- Finding out how to get the Fed speeches implemented 
+- Start implementing the data from YFinance API
+- Find out how we want our front-end to look.
+
 ## Tahira
 ### Subsection 1: 
 
