@@ -127,21 +127,23 @@ Next weeks Goal:
 ### Neville
 
 ## Last Week's Goals:
-- I've been refreshing on my HTML and CSS knowledge, plus looking into JavaScript and frameworks that use it, including Electron and React. We frontenders shall coordinate and decide on which to use after weighing pros and cons for each.
-- Primarily, I have been stuck on what to use, but that is expected when trying to pick software. It is quite a bit to choose from, especially ones I haven't worked with or ones I'm not sure can do what we want. But, we will give it a shot!
-
-## This Week's Summary and Status:
-- This week, I worked on getting a basic React program started, trying to follow documentation and guides, plus learn enough Javascript to help me.
+- This (last) week, I worked on getting a basic React program started, trying to follow documentation and guides, plus learn enough Javascript to help me.
 - I succeeded in creating a basic React program that functions correctly (it is pushed in the Git already, as a link to a zip folder).
 - I also got my installations to work properly and the IDE (Visual Studio Code) to work for me somewhat.
 - I experimented with the React program, tried to figure out its flow, and see what could be added.
 - I am currently stuck on how to make the program work out of the box, but this is a goal probably due for weeks in advance...
 - I am also stuck on thinking of how this program should exactly work. Is it run locally but still needs internet? Or off a server of some kind? This will probably be figured out in the weeks to come.
 - I'm also technically stuck on learning React and JS, but that's just natural for right now.
+  
+## This Week's Summary and Status:
+- Unfortunately, not much tangible results have come out of what I did this week (as in postable code). I did do more looking around and research around some of these topics.
+- I have gotten more understanding of how React interacts with JavaScript/JSX, and how it works in a hierarchial sense. It's still quite a bit to grasp though.
+- Since the detail about using JSON has been solidified, I am able to source help that gives me an idea of how to implement displaying output. Basically, I can focus on reading our JSON outputs and rendering it.
+- Me and Tahira have gotten a clearer idea of where to start with our actual app. Well, it's clearer than last week. It still needs ironing out. We do have another prototype in the works.
 
 ## Plans And Goals:
-- One thing at a time. I will continue to learn React, and help my teammate get synced so we can work on it better together.
-- Get more information about the program ironed out, hopefully this Friday, so I can make a plan based on more refined requirements on top of the old ones.
-- Try to see if I can add even more to my test React program, so that it means I didn't just hit a wall immediately (as in, I don't have to upend and change everything if it is insufficient for my needs)
-- Look into better ways to develop my code. I might be missing out.
-- Try to communicate even more with my team. That would never hurt to do.
+- This is at the top now: Meet more and discuss more. I felt that I didn't do as much as I wanted to this week, because of certain circumstances. But I think they've passed by, so I'll try to do more. Learning is fine, but we should work more on our app.
+- Get an app with better layout started. It can have basic interactivity, or we save that for later perhaps. We definitely should see what is and isn't possible, and start getting tests ready.
+- Since we'll have multiple data points interacting, we should at least get our JSON to go somewhere, as that is the fundamental way we will interact with our AI.
+- Try to have program pieces that are pushable to git. Posting our progress would be a good thing, and maybe we can even cross-test our work.
+- JavaScript is pretty straightforward, so I'm not sure I'll need to study it super hard as its syntax is pretty simple. Not including JSX, of course, as that's our primary way to make React easier and it differs from standard JS. Also, React still needs to be studied more. I need to learn layouts and especially interactivity. We will interact with databases and LLMs, so this must be known.
