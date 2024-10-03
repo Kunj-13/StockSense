@@ -12,10 +12,10 @@
 ## Subsection 2: What We Did
 - **Navid and Kunj (Machine Learning):** We created functions to convert the PDFs of the FOMC documents into CSV files, then used OpenAI to embed the documents into a new CSV file.
 - **Krish and Sahil (Back-End):** Made the decision to use Qdrant vector database to store the embeddings and set up the vector database.
-- **Tahira and Neville (Front-End):** WILL UPDATE BEFORE SUBMISSION.
+- **Tahira and Neville (Front-End):** We are working on our app, but are holding off on in-depth interactivity for now. We have components, and are going to try to get a layout going first.
 
 ### Troubles
-There were no significant troubles on the machine learning and backend side.
+There were no significant troubles on the machine learning, backend side, nor frontend side. Minor troubles include a lack of content for pushing regarding the frontend, but progress is coming along.
 
 ## Subsection 3: What We Will Do Next
 - Finish embedding all of the documents and organize everything in GitHub.
