@@ -38,10 +38,12 @@ There were no significant troubles on the machine learning and backend side.
 - The main thing I worked on this week was writing the code in which we used OpenAI to embed the fomc documents which are pdfs that we have into a new CSV file.
 - Researched on how we are going to implement the CSV fils into the vector database after we embed the documents.
 - Still learning and have been basically experimenting more with the YFinance API so I'm ready when we actually start using the API in upcoming weeks.
-- 
+  
 ### Subsection 3
 - By end of next week, work with Navid to finish embedding all of the documents.
 - Also, work with the backend team to finalize and setup the vector database to use and try to uploaded the CSV files after they are embedded into vector database.
+- Also, verify that the data is stored correctly and can be accessed as needed after we uploaded the embedded CSV files.
+- Last thing, would be working with the backend team to hopefully try to develop basic API calls for querying the vector database using the embeddings.
   
 
 ## Sahil
