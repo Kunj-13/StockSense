@@ -57,9 +57,6 @@ There were no significant troubles on the machine learning, backend side, nor fr
 - I’ve also been checking out which machine learning model and LLM work best with stock predictions.
 - I've also been looking into other projects to look at which features would be the best to add in the project.
 - I've also looked into the best way to format the JSON file so the front-end can use the data.
-
-### Subsection 3: 
-
   
   
 ## Tahira
