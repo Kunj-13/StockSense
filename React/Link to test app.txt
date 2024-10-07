@@ -1,5 +1,6 @@
-https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/nfp5275_psu_edu/Ec48ED94G6hDjXhGxAL9cQwBpjn-zCMyuz1mAwPMoAG3rg?e=w28Pf8
+https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/nfp5275_psu_edu/EXIo5PW1yCVAoT7m0O380QcBSa3bzVOXwQzRMD6sHbjDTQ?e=e4liKg
 
 Notes: It's a zip file that must be unzipped, and it worked on my machine, but it probably wouldn't by default.
 Node.js must be installed and usable, then the command "npm start" must be used (terrible and probably unhelpful instructions)
-It's essentially just the default page. It should have a giant React logo and some unsmart text.
+It's a page that has basic features, like a search bar that will be overhauled, a sidebar, and a set of other features.
+The file I uploaded as of right now named "App - Testing AI Responses.js" contains a file that attempts to integrate a .json reading, but it breaks the CSS and stuff... it's in testing/debugging right now.
