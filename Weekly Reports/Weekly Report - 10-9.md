@@ -66,19 +66,19 @@ There were no significant troubles on the machine learning, backend side, nor fr
 ## Tahira
 ### Subsection 1: 
 
-This week:
+AI Chatbox: 
+•	For users interaction I successfully created an AI chat box where they input stock-related queries, and the app simulates a response using getBotResponse().
+•	The chatHistory state tracks the user-bot conversation, which is displayed dynamically in the chat window.
 
-React Setup: We began setting up the frontend framework using React.
-Initialized the React app.
-Installed necessary dependencies (e.g., React Router, Axios for HTTP requests).
-Established the folder structure to organize components efficiently.
-Created initial components: StockList, StockDetails, and SearchBar.
+Chart.js:
+•	I tried to displays a line chart showing stock price trends over time where stockData object holds the stock values, and the Line component from react-chartjs-2 is used to display the chart which I did not succeeded, my code is not working.
+
 
 ### Subsection 2:
 
-Next weeks Goal:
+Next week’s Goal:
 
- Research on data visualization libraries such as Chart.js and D3.js for displaying stock trends and analysis.
+I have 2 midterms next week and then I am traveling, so I will not be able to work on the project next week. Latter I will fix the bugs and problems in my code and try to create a bar chart  which will display the same stock data as bars.
 
 
 
