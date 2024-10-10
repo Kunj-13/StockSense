@@ -10,7 +10,7 @@
 ### Subsection 2: What We Did
 - **Navid and Kunj (Machine Learning):** Finished the embedding of the documents into CSV format, and looked into OpenAI Whisper in case we plan to add any videos to the context of the chatbot.
 - **Krish and Sahil (Back-End):** Set up the vector database and started looking into how to submit the documents into the database.
-- **Tahira and Neville (Front-End):** Working on our app, but holding off on in-depth interactivity for now. We have components and are trying to get a layout going first.
+- **Tahira and Neville (Front-End):** We have gotten prototype AI chatboxes going, so we are going to see if they work properly for API calls. We are still holding off on adding in-depth interactivity until we get the main part of the program working (AI chatbox) and make it look better. We have a basic layout at this point. Since our work is separate, we will work to combine them if they function correctly.
 
 ### Troubles
 There were no major issues this week, other than the slight mistake of Navid and Kunj embedding the documents into CSV files instead of JSON, which is what the vector database requires. This is an easy fix. Other than that, no other teams encountered significant troubles.
@@ -119,23 +119,20 @@ I have 2 midterms next week and then I am traveling, so I will not be able to wo
 ### Neville
 
 ## Last Week's Goals:
-- This (last) week, I worked on getting a basic React program started, trying to follow documentation and guides, plus learn enough Javascript to help me.
-- I succeeded in creating a basic React program that functions correctly (it is pushed in the Git already, as a link to a zip folder).
-- I also got my installations to work properly and the IDE (Visual Studio Code) to work for me somewhat.
-- I experimented with the React program, tried to figure out its flow, and see what could be added.
-- I am currently stuck on how to make the program work out of the box, but this is a goal probably due for weeks in advance...
-- I am also stuck on thinking of how this program should exactly work. Is it run locally but still needs internet? Or off a server of some kind? This will probably be figured out in the weeks to come.
-- I'm also technically stuck on learning React and JS, but that's just natural for right now.
-  
-## This Week's Summary and Status:
-- Unfortunately, not much tangible results have come out of what I did this week (as in postable code). I did do more looking around and research around some of these topics.
+- Unfortunately, not much tangible results have come out of what I did ~~this~~ last week (as in postable code). I did do more looking around and research around some of these topics.
 - I have gotten more understanding of how React interacts with JavaScript/JSX, and how it works in a hierarchial sense. It's still quite a bit to grasp though.
 - Since the detail about using JSON has been solidified, I am able to source help that gives me an idea of how to implement displaying output. Basically, I can focus on reading our JSON outputs and rendering it.
 - Me and Tahira have gotten a clearer idea of where to start with our actual app. Well, it's clearer than last week. It still needs ironing out. We do have another prototype in the works.
+  
+## This Week's Summary and Status:
+- Me and Tahira have sort of decided to split and combine our works, due to the difficulty of live collaboration. We have made progress on that front.
+- I decided to rely on AI more than before, with oversight of course, as the AI saves an incredible amount of time and provides help to stepping through issues I have with node.js, and React (very frustrating at times to be frank)
+- I was able to get something working, and it appears that Tahira has as well. We are hoping to use this Friday (and the other sections in our group planned on this too, which is great) to try putting these together, and get some kind of demo working. She will not be here, but she had pushed her program for us to use.
+- I pushed a link to a zip containing my new program; with some issues, unfortunately, but it should still function. School computers crash when I try to unzip it however, so that'll have to be dealt with.
+- Due to my further reliance on AI, I slowed down on learning Javascript because it can be mostly taken care of by it. I have a good idea of what some of the code does, so I can debug and bugfix. I won't do that with React, because I still need to know the layouts, dependencies, interactions, and syntax.
 
 ## Plans And Goals:
-- This is at the top now: Meet more and discuss more. I felt that I didn't do as much as I wanted to this week, because of certain circumstances. But I think they've passed by, so I'll try to do more. Learning is fine, but we should work more on our app.
-- Get an app with better layout started. It can have basic interactivity, or we save that for later perhaps. We definitely should see what is and isn't possible, and start getting tests ready.
-- Since we'll have multiple data points interacting, we should at least get our JSON to go somewhere, as that is the fundamental way we will interact with our AI.
-- Try to have program pieces that are pushable to git. Posting our progress would be a good thing, and maybe we can even cross-test our work.
-- JavaScript is pretty straightforward, so I'm not sure I'll need to study it super hard as its syntax is pretty simple. Not including JSX, of course, as that's our primary way to make React easier and it differs from standard JS. Also, React still needs to be studied more. I need to learn layouts and especially interactivity. We will interact with databases and LLMs, so this must be known.
+- I should work with our team more. Especially this Friday, as we'll try to combine our components together. It was probably fine to leave the other teams alone for a bit as we got things figured out, but now we should work together more.
+- Combine our programs and features, or at least fix the CSS on mine...
+- Prioritize the AI output part, as once we have that, we got the main part out of the way and can then work on making it look nicer.
+- Once again, try to push usable things to git. Tahira seems to have done it, so I should too. I'll see if what she pushed works, of course. Worst case, I can try to use parts of the code.
