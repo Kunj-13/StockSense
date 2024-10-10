@@ -28,10 +28,11 @@ There were no significant troubles on the machine learning, backend side, nor fr
 ## Kunj 
 
 ### Subsection 1:
-- By end of next week, finalize the machine learning model selection for stock price prediction.
-- Also, set up the development environment to start integrating the selected models and APIs.
-- Try to learn more about YFinance API and do basic experimenting with retrieving stock data from the YFinance API by running basic API requests.
-- Last thing, I would like to do is get familar is OpenAI's API as it's my first time using it and would really like to get to know more about it. 
+- By end of next week, work with Navid to finish embedding all of the documents.
+- Also, work with the backend team to finalize and setup the vector database to use and try to uploaded the CSV files after they are embedded into vector database.
+- Also, verify that the data is stored correctly and can be accessed as needed after we uploaded the embedded CSV files.
+- Last thing, would be working with the backend team to hopefully try to develop basic API calls for querying the vector database using the embeddings.
+
 
 ### Subsection 2:
 - First of all, went through different materials like tutorial videos and articles to learn how to embed documents into a CSV file.
@@ -40,11 +41,7 @@ There were no significant troubles on the machine learning, backend side, nor fr
 - Still learning and have been basically experimenting more with the YFinance API so I'm ready when we actually start using the API in upcoming weeks.
   
 ### Subsection 3
-- By end of next week, work with Navid to finish embedding all of the documents.
-- Also, work with the backend team to finalize and setup the vector database to use and try to uploaded the CSV files after they are embedded into vector database.
-- Also, verify that the data is stored correctly and can be accessed as needed after we uploaded the embedded CSV files.
-- Last thing, would be working with the backend team to hopefully try to develop basic API calls for querying the vector database using the embeddings.
-  
+
 
 ## Sahil
 ### Subsection 1: 
