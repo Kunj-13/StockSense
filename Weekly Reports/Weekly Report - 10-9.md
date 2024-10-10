@@ -83,19 +83,19 @@ I have 2 midterms next week and then I am traveling, so I will not be able to wo
 ## Subsection 1: 
 - Learned more about OpenAI API and how we will be using it to train our models
 - Installed some of the dependencies for libraries we will be using in the backend
-- configured vscode to be able to use it wifh githun repository
+- configured vscode to be able to use it with GitHub repository
 - Watched more videos on JSON and how to format data
 
 
 ## Subsection 2:
 - I learned about vector databases and how they work and what they are used for
--
-
-
+- I set up the semantic search and started looking into how we can use this with the Fed speeches
+- I started writing code for the vector database
 
 ## Subsection 3: 
-- I want to coordinate with the group and make sure we are all on the same page for how we will push commits to the repository without screwing up eachother's work
-- Want to test and push some initial code for database we will be using
+- I want to coordinate with the group and make sure we are all on the same page for how we will push commits to the repository without screwing up each other's work
+- Want to test the code for the database we will be using
+- Do some more research on how to use semantic search more effectively
 
 ### Navid Hoque
 
