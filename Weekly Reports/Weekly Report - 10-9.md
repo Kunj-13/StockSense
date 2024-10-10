@@ -2,25 +2,24 @@
 
 # Project Update
 
-## Subsection 1: What We Did Last Week
-- Finalize the vector database decision or get closer to a decision.
-- Learn how to embed documents and then embed the PDFs we have.
-- Get more familiar with the various tools we are working with, like yfinance, OpenAI, and React JS.
-- Start designing parts of the frontend, such as the UI layout with CSS and basic JSX.
-- Meet more consistently, aiming for at least one additional meeting beyond Fridays and the few messages exchanged throughout the week.
-
-## Subsection 2: What We Did
-- **Navid and Kunj (Machine Learning):** We created functions to convert the PDFs of the FOMC documents into CSV files, then used OpenAI to embed the documents into a new CSV file.
-- **Krish and Sahil (Back-End):** Made the decision to use Qdrant vector database to store the embeddings and set up the vector database.
-- **Tahira and Neville (Front-End):** We are working on our app, but are holding off on in-depth interactivity for now. We have components, and are going to try to get a layout going first.
-
-### Troubles
-There were no significant troubles on the machine learning, backend side, nor frontend side. Minor troubles include a lack of content for pushing regarding the frontend, but progress is coming along.
-
-## Subsection 3: What We Will Do Next
-- Finish embedding all of the documents and organize everything in GitHub.
+### Subsection 1: What We Did Last Week
+- Finished embedding all of the documents and organized everything in GitHub.
 - Once everything is embedded, the CSV files will be uploaded into the vector database.
 - Split the back-end group temporarily to assist the front-end and machine learning teams, as there are fewer tasks for them currently. This will change in the coming weeks.
+
+### Subsection 2: What We Did
+- **Navid and Kunj (Machine Learning):** Finished the embedding of the documents into CSV format, and looked into OpenAI Whisper in case we plan to add any videos to the context of the chatbot.
+- **Krish and Sahil (Back-End):** Set up the vector database and started looking into how to submit the documents into the database.
+- **Tahira and Neville (Front-End):** Working on our app, but holding off on in-depth interactivity for now. We have components and are trying to get a layout going first.
+
+### Troubles
+There were no major issues this week, other than the slight mistake of Navid and Kunj embedding the documents into CSV files instead of JSON, which is what the vector database requires. This is an easy fix. Other than that, no other teams encountered significant troubles.
+
+### Subsection 3: What We Will Do Next
+- Convert the documents to JSON format with embeddings.
+- Insert the documents into the vector database.
+- Hopefully, have a simple demo of the project without all of the data, in a simple command line interface, to show the front-end team. If time does not permit, this will be a goal for next week.
+- Meet more often as a team, as we're still slacking on that a bit.
 
 # Individual Report
 
