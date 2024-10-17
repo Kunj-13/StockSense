@@ -69,7 +69,7 @@ Pros:
 - Optimized for similarity searches, which can enhance user experience by providing relevant recommendations based on embeddings.
 - Handles high-dimensional data efficiently, which is beneficial for natural language processing tasks.
 - Scalable and designed for real-time querying, making it suitable for dynamic applications.
-- 
+  
 Cons:
 - May require additional complexity in integrating with existing systems that primarily use relational databases.
 - Some vector databases might have limitations in transactional support.
