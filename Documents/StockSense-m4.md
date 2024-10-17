@@ -57,7 +57,7 @@
 
 ### Software Design
 1. Frontend Application
-Definition: The user interface that allows users to interact with the chatbot and view market data. It displays responses from the chatbot, presents stock information, and enables user input.
+  - Definition: The user interface that allows users to interact with the chatbot and view market data. It displays responses from the chatbot, presents stock information, and enables user input.
 
 Key Packages and Frameworks:
 
