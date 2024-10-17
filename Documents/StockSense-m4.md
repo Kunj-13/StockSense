@@ -105,7 +105,7 @@ Pros:
 Cons:
 - Smaller community and fewer resources compared to React, which might limit long-term support.
 
-### Software Design
+## Software Design
 1. Frontend Application
   - Definition: The user interface that allows users to interact with the chatbot and view market data. It displays responses from the chatbot, presents stock information, and enables user input.
 
