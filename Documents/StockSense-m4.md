@@ -155,5 +155,30 @@ DataController Class: Manages requests for data processing.
 Responsibilities:
 Interface with the Data Processing Module to fetch and return analyzed data.
 
+## Coding Guideline
+1. **Python** - https://peps.python.org/pep-0008/
+   
+### Why this guide?
+- PEP 8 is the official style guide for Python, created by the developers of the language. It helps make Python code easy to read by establishing rules for indentation, naming conventions, and spacing. Following PEP 8 ensures that everyone writes code in the same way, making it easier to collaborate.
 
+### Enforcement Rules
+- Backend and machine learning team members will review Python code weekly to ensure it follows PEP 8 and is understandable. Every two weeks, the entire project team will conduct a code review to maintain consistency across the project.
+
+
+2. **Javascript** - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+
+### Why this guide?
+- This guide is trusted and widely used because it aligns with the ECMAScript standards that define the core JavaScript language. It focuses on writing clear, well-structured JavaScript code, including how to handle variables, functions, loops, and error handling properly.
+
+### Enforcement Rules
+- The frontend team will regularly review JavaScript code to ensure it follows the MDN guide and remains easy to read. Every two weeks, the entire team will review the project to make sure all JavaScript code aligns with the style guide.
+
+   
+3. **HTML** - https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/HTML
+
+### Why this guide?
+- The MDN guide ensures you write HTML that is semantic and accessible, meaning the code is structured so it’s easy for both browsers and users (including those using screen readers) to understand. This is crucial for building websites that work well across all devices and are inclusive to all users.
+
+### Enforcement Rules
+- Frontend team members will review HTML code weekly to confirm it meets the MDN guidelines. Every two weeks, the whole project team will go through the codebase to ensure all HTML code is semantic, accessible, and consistent with the guide.
    
