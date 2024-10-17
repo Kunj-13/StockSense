@@ -73,7 +73,8 @@ Pros:
 Cons:
 - May require additional complexity in integrating with existing systems that primarily use relational databases.
 - Some vector databases might have limitations in transactional support.
-- Alternative: Traditional Relational Database (e.g., PostgreSQL)
+
+Alternative: Traditional Relational Database (e.g., PostgreSQL)
 
 Pros:
 - Strong ACID compliance and data integrity guarantees, which are critical for financial applications.
@@ -94,7 +95,8 @@ Pros:
 - 
 Cons:
 - Steeper learning curve for newcomers compared to Vue.js.
-- Alternative: Vue.js
+
+Alternative: Vue.js
 
 Pros:
 - Simpler syntax and better documentation for beginners.
