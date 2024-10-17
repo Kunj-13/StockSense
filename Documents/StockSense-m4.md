@@ -190,7 +190,7 @@ Interface with the Data Processing Module to fetch and return analyzed data.
 
 ## Process description
 ### Risk Assessment
-- Data Integration Issues
+1. Data Integration Issues
 - Likelihood: Medium
 - Impact: High
 - Evidence: Initial testing with yfinance and other APIs has shown inconsistencies in data availability and format. Previous experiences with similar projects have highlighted challenges in harmonizing data from multiple sources.
