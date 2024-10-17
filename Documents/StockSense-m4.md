@@ -54,6 +54,11 @@
    - date (DATE)
    - text (TEXT)
    - sentiment (VARCHAR)
+  
+### Assumptions Underpinning Architechture
+- Real-time Data Availability: It is assumed that APIs providing stock and options data will offer timely and reliable information.
+- Complex Query Needs: The architecture assumes that users will benefit from similarity searches and contextual information, justifying the use of a vector database.
+- User Engagement: The application is designed for diverse users, from novice to experienced traders, requiring a flexible and intuitive interface.
 
 ### Software Design
 1. Frontend Application
