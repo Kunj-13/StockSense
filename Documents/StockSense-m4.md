@@ -55,8 +55,105 @@
    - text (TEXT)
    - sentiment (VARCHAR)
 
+### Software Design
+1. Frontend Application
+Definition: The user interface that allows users to interact with the chatbot and view market data. It displays responses from the chatbot, presents stock information, and enables user input.
 
+Key Packages and Frameworks:
 
+React: A JavaScript library for building user interfaces.
+React Router: For routing and navigation between different views.
+Axios: For making HTTP requests to the API.
+Redux or Context API: For state management across the application.
+Classes and Units of Abstraction:
+
+App Component: The root component that holds the overall structure of the application.
+Chatbot Component: Handles user input and displays chatbot responses.
+Responsibilities:
+Capture user queries.
+Display the chatbot's responses.
+Maintain local state for conversation history.
+StockData Component: Displays real-time stock information.
+Responsibilities:
+Fetch and display stock data from the API.
+Update UI based on user preferences.
+Loader Component: Shows a loading animation while data is being fetched.
+Responsibilities:
+Indicate that a request is in progress.
+2. Chatbot Engine
+Definition: The core component responsible for processing user queries, generating responses, and incorporating market insights.
+
+Key Packages and Frameworks:
+
+Transformers: Hugging Face's library for using pre-trained language models.
+spaCy or NLTK: For text processing and analysis.
+Torch: For deep learning model execution if using PyTorch.
+Classes and Units of Abstraction:
+
+Chatbot Class: Main class that handles the interaction logic.
+Responsibilities:
+Process user inputs.
+Generate responses using an LLM.
+Contextualize responses based on Federal Reserve speech data.
+Context Manager Class: Manages the context of the conversation.
+Responsibilities:
+Store and retrieve conversation history.
+Ensure relevant context is considered in responses.
+3. Data Processing Module
+Definition: Responsible for fetching, processing, and analyzing stock market data, Federal Reserve speeches, and options data.
+
+Key Packages and Frameworks:
+
+Pandas: For data manipulation and analysis.
+NumPy: For numerical operations.
+Requests: For making HTTP requests to external APIs.
+Classes and Units of Abstraction:
+
+DataFetcher Class: Responsible for fetching data from various APIs.
+Responsibilities:
+Fetch stock data from yfinance.
+Retrieve Federal Reserve speech data from a relevant source.
+Collect options data.
+DataAnalyzer Class: Performs analysis on the fetched data.
+Responsibilities:
+Analyze trends (bullish/bearish).
+Compute metrics like the Greeks for options data.
+Vectorizer Class: Converts textual data and numerical data into vector embeddings for storage in the vector database.
+Responsibilities:
+Generate embeddings using models like Sentence Transformers.
+Store embeddings for quick retrieval.
+4. Vector Database
+Definition: A specialized database designed for efficiently storing and querying vector embeddings.
+
+Key Technologies:
+
+Pinecone, Weaviate, or FAISS: Vector databases for managing and querying vector data.
+Classes and Units of Abstraction:
+
+VectorDBClient Class: Interface to communicate with the vector database.
+Responsibilities:
+Connect to the database.
+Perform CRUD operations on vector embeddings.
+Handle similarity searches and retrieve relevant data based on user queries.
+5. API Layer
+Definition: Acts as the intermediary between the frontend and the backend components, handling HTTP requests and responses.
+
+Key Frameworks:
+
+Flask or Django REST Framework: For building RESTful APIs.
+Classes and Units of Abstraction:
+
+API Class: Main class that defines API endpoints and handles routing.
+Responsibilities:
+Define routes for fetching stock data, submitting user queries, and returning chatbot responses.
+Validate incoming requests and handle errors.
+UserController Class: Manages user-related actions.
+Responsibilities:
+Handle user authentication and preferences.
+Manage user interaction history.
+DataController Class: Manages requests for data processing.
+Responsibilities:
+Interface with the Data Processing Module to fetch and return analyzed data.
 
 
    
