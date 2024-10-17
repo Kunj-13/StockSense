@@ -275,3 +275,12 @@ Interface with the Data Processing Module to fetch and return analyzed data.
    - Better Estimates: Regularly review commits and monitor merge activity to detect potential issues early.
    - Detection Plan: Conduct routine checks on GitHub commits to spot conflicts and ensure smooth collaboration.
    - Mitigation Plan: If conflicts occur, assign team members to resolve them quickly and document the resolutions clearly for transparency.
+  
+### Team Structure 
+- Navid - Machine Learning 
+- Kunj - Machine Learning
+- Sahil - Backend
+- Krish - Backend
+- Neville - Frontend
+- Tahira - Frontend
+   - 
