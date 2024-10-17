@@ -31,3 +31,32 @@
 - Raw Data: Historical and real-time stock prices, options data, and text of Federal Reserve speeches.
 
 #### High-Level Data Structure
+1. User Data
+   - user_id (ID)
+   - embedding (VECTOR)
+   - preferences (JSON)
+   - interaction_history (TEXT)
+2. Stock Data Embeddings
+   - stock_id (ID)
+   - ticker (VARCHAR)
+   - embedding (VECTOR)
+   - date (DATE)
+   - price_history (JSON)
+3. Options Data Embeddings
+   - option_id (ID)
+   - ticker (VARCHAR)
+   - embedding (VECTOR)
+   - strike_price (FLOAT)
+   - expiration_date (DATE)
+4. Federal Reserve Speech Embeddings
+   - speech_id (ID)
+   - embedding (VECTOR)
+   - date (DATE)
+   - text (TEXT)
+   - sentiment (VARCHAR)
+
+
+
+
+
+   
