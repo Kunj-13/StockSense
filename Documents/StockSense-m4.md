@@ -60,6 +60,45 @@
 - Complex Query Needs: The architecture assumes that users will benefit from similarity searches and contextual information, justifying the use of a vector database.
 - User Engagement: The application is designed for diverse users, from novice to experienced traders, requiring a flexible and intuitive interface.
 
+### Architechture Decisions and Alternatives
+1. Choice of Database: Vector Database vs. Traditional Relational Database
+
+Chosen Option: Vector Database
+
+Pros:
+- Optimized for similarity searches, which can enhance user experience by providing relevant recommendations based on embeddings.
+- Handles high-dimensional data efficiently, which is beneficial for natural language processing tasks.
+- Scalable and designed for real-time querying, making it suitable for dynamic applications.
+Cons:
+- May require additional complexity in integrating with existing systems that primarily use relational databases.
+- Some vector databases might have limitations in transactional support.
+- Alternative: Traditional Relational Database (e.g., PostgreSQL)
+
+Pros:
+- Strong ACID compliance and data integrity guarantees, which are critical for financial applications.
+- Familiarity and maturity in querying data with SQL.
+Cons:
+- Less efficient for high-dimensional similarity searches compared to vector databases.
+- Requires additional effort to handle embeddings (e.g., storing them as BLOBs or JSON) and querying them effectively.
+
+2. Frontend Framework: React vs. Vue.js
+
+Chosen Option: React
+
+Pros:
+- Large community and ecosystem, providing extensive libraries and tools.
+- Strong performance and virtual DOM features enhance user experience.
+- Component-based architecture facilitates reusability and scalability.
+Cons:
+- Steeper learning curve for newcomers compared to Vue.js.
+- Alternative: Vue.js
+
+Pros:
+- Simpler syntax and better documentation for beginners.
+- Flexible and can be integrated into existing projects with ease.
+Cons:
+- Smaller community and fewer resources compared to React, which might limit long-term support.
+
 ### Software Design
 1. Frontend Application
   - Definition: The user interface that allows users to interact with the chatbot and view market data. It displays responses from the chatbot, presents stock information, and enables user input.
