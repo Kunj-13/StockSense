@@ -79,7 +79,7 @@ Alternative: Traditional Relational Database (e.g., PostgreSQL)
 Pros:
 - Strong ACID compliance and data integrity guarantees, which are critical for financial applications.
 - Familiarity and maturity in querying data with SQL.
-- 
+  
 Cons:
 - Less efficient for high-dimensional similarity searches compared to vector databases.
 - Requires additional effort to handle embeddings (e.g., storing them as BLOBs or JSON) and querying them effectively.
@@ -92,7 +92,7 @@ Pros:
 - Large community and ecosystem, providing extensive libraries and tools.
 - Strong performance and virtual DOM features enhance user experience.
 - Component-based architecture facilitates reusability and scalability.
-- 
+  
 Cons:
 - Steeper learning curve for newcomers compared to Vue.js.
 
@@ -101,7 +101,7 @@ Alternative: Vue.js
 Pros:
 - Simpler syntax and better documentation for beginners.
 - Flexible and can be integrated into existing projects with ease.
-- 
+  
 Cons:
 - Smaller community and fewer resources compared to React, which might limit long-term support.
 
