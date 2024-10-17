@@ -12,7 +12,7 @@
   - Technologies: Python for data processing and analysis, using libraries like Pandas and NumPy.
 4. Vector Database
   - Functionality: Stores vector embeddings for stock data, Federal Reserve speeches, and user interactions. This enables fast similarity searches and efficient retrieval of related data.
-  - Technologies: Pinecone, Weaviate, or FAISS for managing and querying vector data.
+  - Technologies:  Qdrant vector database and qdrant client python libary
 5. API Layer
   - Functionality: Facilitates communication between the frontend, chatbot engine, data processing module, and the vector database. Handles HTTP requests and responses.
   - Technologies: Flask or Django REST framework.
