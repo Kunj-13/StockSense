@@ -114,24 +114,21 @@ I will continue to working on Chart.js and D3.js for displaying stock trends and
 ### Neville
 
 ## Last Week's Goals:
-- This (last) week, I worked on getting a basic React program started, trying to follow documentation and guides, plus learn enough Javascript to help me.
-- I succeeded in creating a basic React program that functions correctly (it is pushed in the Git already, as a link to a zip folder).
-- I also got my installations to work properly and the IDE (Visual Studio Code) to work for me somewhat.
-- I experimented with the React program, tried to figure out its flow, and see what could be added.
-- I am currently stuck on how to make the program work out of the box, but this is a goal probably due for weeks in advance...
-- I am also stuck on thinking of how this program should exactly work. Is it run locally but still needs internet? Or off a server of some kind? This will probably be figured out in the weeks to come.
-- I'm also technically stuck on learning React and JS, but that's just natural for right now.
-  
-## This Week's Summary and Status:
 - Unfortunately, not much tangible results have come out of what I did this week (as in postable code). I did do more looking around and research around some of these topics.
 - I have gotten more understanding of how React interacts with JavaScript/JSX, and how it works in a hierarchial sense. It's still quite a bit to grasp though.
 - Since the detail about using JSON has been solidified, I am able to source help that gives me an idea of how to implement displaying output. Basically, I can focus on reading our JSON outputs and rendering it.
 - Me and Tahira have gotten a clearer idea of where to start with our actual app. Well, it's clearer than last week. It still needs ironing out. We do have another prototype in the works.
+  
+## This Week's Summary and Status:
+- We did good stuff this week. We got a nice looking layout going, and theoretically can save chat history (this is slightly bugged, I opened an issue about it).
+- I figured out how to more easily port my program. I was actually able to upload my test file to the GitHub thanks to this. I was also able to have Tahira run it and have the code, so we can add to it now.
+- I mostly used AI to build the CSS and some of the features, but I also added some stuff myself. I'm so proud.
+- Being able to port it had me realize that our separate-then-combine approach might actually work pretty well. As long as we work on allowing the pieces to easily recombine, or have a template to work with, it should be fine.
 
 ## Plans And Goals:
-- This is at the top now: Meet more and discuss more. I felt that I didn't do as much as I wanted to this week, because of certain circumstances. But I think they've passed by, so I'll try to do more. Learning is fine, but we should work more on our app.
-- Get an app with better layout started. It can have basic interactivity, or we save that for later perhaps. We definitely should see what is and isn't possible, and start getting tests ready.
-- Since we'll have multiple data points interacting, we should at least get our JSON to go somewhere, as that is the fundamental way we will interact with our AI.
-- Try to have program pieces that are pushable to git. Posting our progress would be a good thing, and maybe we can even cross-test our work.
-- JavaScript is pretty straightforward, so I'm not sure I'll need to study it super hard as its syntax is pretty simple. Not including JSX, of course, as that's our primary way to make React easier and it differs from standard JS. Also, React still needs to be studied more. I need to learn layouts and especially interactivity. We will interact with databases and LLMs, so this must be known.
-
+- I really really really need to test API calls more. It's the basis of our program, it must work!
+- The back-end team is still working on our economically minded AI. I'll probably try working on bug fixes or layout while they're getting that ready.
+- I'm satisfied with what I showed this week, but I will always say anyway that we should meet more.
+- I think we clarified most of the details, but I still should do it more. It's difficult to change the layout or try to get it to look how I want it, HTML/JS is just odd and confusing sometimes.
+- Find a good tester or React App development environment, perhaps. It's for an assignment coming up, and I am still a bit worried about if I am working with limited tools.
+- Rewatch the videos we were sent. I watched them before, and they were good but the frontend stuff was in Python. Maybe I can reglean something with another look at it?
