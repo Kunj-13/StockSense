@@ -27,21 +27,21 @@ There were no significant troubles on the machine learning, backend side, nor fr
 
 ## Kunj 
 
-### Subsection 1:
-- By end of next week, work with Navid to finish embedding all of the documents.
-- Also, work with the backend team to finalize and setup the vector database to use and try to uploaded the CSV files after they are embedded into vector database.
-- Also, verify that the data is stored correctly and can be accessed as needed after we uploaded the embedded CSV files.
-- Last thing, would be working with the backend team to hopefully try to develop basic API calls for querying the vector database using the embeddings.
+## Subsection 1
+- It would be great to start working with the backend team to hopefully try to develop basic API calls for querying the vector database using the embeddings by next week.
+- Also, work on finalizing a simple demo to show to the frontend team that truly displays all of our features.
+- It would be great for Navid and I to convert all of those embedded CSV files we made into JSON files, which we can use for the vector database.
 
-### Subsection 2:
-- First of all, went through different materials like tutorial videos and articles to learn how to embed documents into a CSV file.
-- The main thing I worked on this week was writing the code in which we used OpenAI to embed the fomc documents which are pdfs that we have into a new CSV file.
-- Researched on how we are going to implement the CSV fils into the vector database after we embed the documents.
-- Still learning and have been basically experimenting more with the YFinance API so I'm ready when we actually start using the API in upcoming weeks.
-  
-### Subsection 3
+## Subsection 2
+- Worked with Navid on converting the embeddings into JSON files.
+- Worked with Krish to finish the semantic search.
+- Started working on implementing the semantic search into the bot outputs.
 
-  
+## Subsection 3
+- It would be great to start working with the backend team to hopefully try to develop basic API calls for querying the vector database using the embeddings by next week.
+- Also, work on finalizing a simple demo to show to the frontend team that truly displays all of our features.
+- These goals are about the same as last time since the machine learning team is running a bit behind schedule.
+
 
 ## Sahil
 ## Subsection 1
