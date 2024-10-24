@@ -44,21 +44,19 @@ There were no significant troubles on the machine learning, backend side, nor fr
   
 
 ## Sahil
-### Subsection 1: 
-- Finding a good dataset to use.
-- Finding out which ML model will be best for this project.
-- Finding out how to integrate the data to get the best results. 
+## Subsection 1
+- Start implementing the Fed speeches.
+- Started figuring out what the frontend is going to look like.
+- Finish setting up the database.
 
-### Subsection 2:
-- I've been watching videos Navid has sent to the group so we can start coding.
-- I’ve also been testing out the YFinance API and looking at how we are going to use it. 
-- I've also been looking at the Fed speeches and trying to figure out what the best way to use them would be.
-- I've still looking into the best way to format the JSON file so the front-end can use the data.
+## Subsection 2
+- Worked with Krish on making the semantic search fully functional.
+- Uploaded documents into the vector database.
 
-### Subsection 3: 
-- Finding out how to get the Fed speeches implemented 
-- Start implementing the data from YFinance API
-- Find out how we want our front-end to look.
+## Subsection 3
+- Figure out how to configure the outputs of the bot into JSON so the front end can use it.
+- Help finish the bot output with Navid and Kunj.
+
 
 ## Tahira
 ### Subsection 1: 
