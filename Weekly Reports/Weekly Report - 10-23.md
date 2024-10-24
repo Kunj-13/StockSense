@@ -65,17 +65,13 @@
 
 This week:
 
-React Setup: We began setting up the frontend framework using React.
-Initialized the React app.
-Installed necessary dependencies (e.g., React Router, Axios for HTTP requests).
-Established the folder structure to organize components efficiently.
-Created initial components: StockList, StockDetails, and SearchBar.
+I am working on data visualization libray Chart.js for displaying stock trends and analysis. I am still in initial phase of chart.js. It required more learning and time. 
 
 ### Subsection 2:
 
 Next weeks Goal:
 
- Research on data visualization libraries such as Chart.js and D3.js for displaying stock trends and analysis.
+I will continue to working on Chart.js and D3.js for displaying stock trends and analysis.
 
 
 
