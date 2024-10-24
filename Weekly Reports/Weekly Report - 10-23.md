@@ -3,24 +3,26 @@
 # Project Update
 
 ## Subsection 1: What We Did Last Week
-- Finalize the vector database decision or get closer to a decision.
-- Learn how to embed documents and then embed the PDFs we have.
-- Get more familiar with the various tools we are working with, like yfinance, OpenAI, and React JS.
-- Start designing parts of the frontend, such as the UI layout with CSS and basic JSX.
-- Meet more consistently, aiming for at least one additional meeting beyond Fridays and the few messages exchanged throughout the week.
+- Converted the documents to JSON format with embeddings.
+- Inserted the documents into the vector database.
+- Hopefully, have a simple demo of the project without all of the data, in a simple command line interface, to show the front-end team. If time does not permit, this will be a goal for next week.
+- Meet more often as a team, as we're still slacking on that a bit.
 
 ## Subsection 2: What We Did
-- **Navid and Kunj (Machine Learning):** We created functions to convert the PDFs of the FOMC documents into CSV files, then used OpenAI to embed the documents into a new CSV file.
-- **Krish and Sahil (Back-End):** Made the decision to use Qdrant vector database to store the embeddings and set up the vector database.
-- **Tahira and Neville (Front-End):** We are working on our app, but are holding off on in-depth interactivity for now. We have components, and are going to try to get a layout going first.
+- **Navid and Kunj (Machine Learning):** Converted the documents into JSON format to be inserted into the vector database and started working on the actual outputs and giving the output context.
+- **Krish and Sahil (Back-End):** Input all of the documents into the vector database and helped the machine learning team with the bot outputs, implementing the semantic search.
+- **Tahira and Neville (Front-End):** Got prototype AI chatboxes running and are testing API calls. Holding off on adding in-depth interactivity until the AI chatbox works properly and looks better. Basic layout is in place. Front-end work will be combined if everything functions correctly.
 
 ### Troubles
-There were no significant troubles on the machine learning, backend side, nor frontend side. Minor troubles include a lack of content for pushing regarding the frontend, but progress is coming along.
+- No major issues this week, but the front end is further along than the back-end and machine learning teams in making API calls.
 
 ## Subsection 3: What We Will Do Next
-- Finish embedding all of the documents and organize everything in GitHub.
-- Once everything is embedded, the CSV files will be uploaded into the vector database.
-- Split the back-end group temporarily to assist the front-end and machine learning teams, as there are fewer tasks for them currently. This will change in the coming weeks.
+- Create a file for the API calls so the front end can figure out what else needs to be done.
+- Alter the front end to fully integrate the bot.
+- Hopefully, have a simple demo of the project without all of the data, in a simple command line interface, to show the front-end team. If time does not permit, this will be a goal for next week.
+- Meet more often as a team, as we're still slacking on that a bit.
+- Realistically, we just need to work on these same goals again.
+
 
 # Individual Report
 
