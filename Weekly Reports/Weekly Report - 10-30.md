@@ -65,7 +65,7 @@
 
 This week:
 
-I was working on data visualization libray Chart.js for displaying stock trends and analysis, now I realized the backend is not creatted for chrts. So my week was not productive, but I learn something that maybe useful in the future. Setting up react is not a big job, but it took me days to understand how to build it.
+I was working on data visualization libray Chart.js for displaying stock trends and analysis, now I realized the backend is not created for charts. So my week was not productive, but I learn something that maybe useful in the future. Setting up react is not a big job, but it took me days to understand how to build it.
 
 ### Subsection 2:
 
