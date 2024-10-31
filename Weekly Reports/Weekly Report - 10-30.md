@@ -95,19 +95,19 @@ Modify the react to give final touches. Not much left to do.
 ### Navid Hoque
 
 ## Subsection 1: Last Week’s Goals
-- Work with Kunj and the back-end team to try and have a very simple demo to show the front-end team how the chatbot works, and from there assist with anything we can.
-- Since the machine learning team is almost done with their parts of the project, we will most likely help the back-end teams with their tasks.
-- Look into how to perform a semantic search and use the chatbot to output the results.
+- Collaborate with Kunj and the back-end team to develop a simple demo, showcasing the chatbot to the front-end team and assisting as needed.
+- Support the back-end team as the machine learning team nears completion of its tasks.
+- Finalize the semantic search functionality, allowing the chatbot to output relevant results.
+- Continue focusing on these same goals from the previous week.
 
 ## Subsection 2: What We Did
-- Converted all embeddings into JSON format.
-- Started working on integrating semantic search into the bot so we can get a good output from the AI chatbot.
+- Completed a simple demo using a Discord bot as a sample front end, providing the front-end team with a reference for integrating the chatbot.
+- Collaborated with Sahil, Kunj, and Krish to integrate the context from the vector database, enabling the bot to respond with relevant information from the documents stored in the database.
 
 ## Subsection 3: Plans and Goals
-- Work with Kunj and the back-end team to try and have a very simple demo to show the front-end team how the chatbot works, and from there assist with anything we can.
-- Since the machine learning team is almost done with their parts of the project, we will most likely help the back-end teams with their tasks.
-- Finish the semantic search and use the chatbot to output the results.
-- Still working on these same goals as last week.
+- Present the demo to the front-end team and identify where the sample Discord front end can be replaced with the front-end team’s interface.
+- Explore efficient sources for acquiring current options data.
+- Develop a method to incorporate options data into the context, as it cannot be directly added to the vector database.
 
 
 ### Neville
