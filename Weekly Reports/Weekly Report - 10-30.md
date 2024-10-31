@@ -46,17 +46,16 @@
 
 ## Sahil
 ## Subsection 1
-- Start implementing the Fed speeches.
-- Started figuring out what the frontend is going to look like.
-- Finish setting up the database.
-
-## Subsection 2
-- Worked with Krish on making the semantic search fully functional.
-- Uploaded documents into the vector database.
-
-## Subsection 3
 - Figure out how to configure the outputs of the bot into JSON so the front end can use it.
 - Help finish the bot output with Navid and Kunj.
+
+## Subsection 2
+- I helped complete the demo.
+- I got the JSON files formatted and it should be working with the Vector database. 
+
+## Subsection 3
+- Help get the YahooFinance API implemented with the chatbot
+- Help with the front-end and get it working
 
 
 ## Tahira
@@ -75,21 +74,18 @@ Modify the react to give final touches. Not much left to do.
 
 
 ### Krish
-
 ## Subsection 1
-- Learned more about OpenAI API and how we will be using it to train our models.
-- Installed some of the dependencies for libraries we will be using in the backend.
-- Configured VSCode to be able to use it with the GitHub repository.
-- Watched more videos on JSON and how to format data.
-
-## Subsection 2
-- Uploaded documents into the vector database.
-- Finished the semantic search.
-- Helping the machine learning team with the bot outputs.
-
-## Subsection 3
 - I want to coordinate with the group and make sure we are all on the same page for how we will push commits to the repository without screwing up each other's work.
 - Figure out how to configure the outputs of the bot into JSON so the front end can use it.
+
+## Subsection 2
+- Get the Yahoo finance API implemented so it works with the vector database without any issues
+- Finish uploading documents into the vector database.
+- Get JSON files formatted so I can work on the front end
+
+## Subsection 3
+- Get the front end ready so the bot and display information
+- Look into another API for option trading
 
 
 ### Navid Hoque
