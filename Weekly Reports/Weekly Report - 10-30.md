@@ -3,26 +3,25 @@
 # Project Update
 
 ## Subsection 1: What We Did Last Week
-- Converted the documents to JSON format with embeddings.
-- Inserted the documents into the vector database.
-- Hopefully, have a simple demo of the project without all of the data, in a simple command line interface, to show the front-end team. If time does not permit, this will be a goal for next week.
-- Meet more often as a team, as we're still slacking on that a bit.
+- Created a file for the API calls so the front-end team can identify any remaining requirements.
+- Altered the front end to fully integrate the bot.
+- Attempted to create a simple demo of the project (without all data) in a command-line interface for the front-end team. If time did not allow, this goal will carry over to the next week.
+- Increased the frequency of team meetings, addressing some coordination gaps.
+- Focused on the same goals, as they remain priorities.
 
 ## Subsection 2: What We Did
-- **Navid and Kunj (Machine Learning):** Converted the documents into JSON format to be inserted into the vector database and started working on the actual outputs and giving the output context.
-- **Krish and Sahil (Back-End):** Input all of the documents into the vector database and helped the machine learning team with the bot outputs, implementing the semantic search.
-- **Tahira and Neville (Front-End):** Got prototype AI chatboxes running and are testing API calls. Holding off on adding in-depth interactivity until the AI chatbox works properly and looks better. Basic layout is in place. Front-end work will be combined if everything functions correctly.
+- **Navid and Kunj (Machine Learning)**: Worked to complete a simple demo using a Discord bot with context from all FOMC minutes and statements.
+- **Krish and Sahil (Back-End)**: Contributed to the demo development and integrated the vector database.
+- **Tahira and Neville (Front-End)**: Set up prototype AI chatboxes and began testing API calls. Awaiting further interactivity integration until the AI chatbox is fully functional and visually polished. Basic layout is established, and front-end work will be consolidated when stable.
 
 ### Troubles
-- No major issues this week, but the front end is further along than the back-end and machine learning teams in making API calls.
+- No significant issues this week; machine learning and back-end teams are now aligned with the front end.
 
 ## Subsection 3: What We Will Do Next
-- Create a file for the API calls so the front end can figure out what else needs to be done.
-- Alter the front end to fully integrate the bot.
-- Hopefully, have a simple demo of the project without all of the data, in a simple command line interface, to show the front-end team. If time does not permit, this will be a goal for next week.
-- Meet more often as a team, as we're still slacking on that a bit.
-- Realistically, we just need to work on these same goals again.
-
+- Transition the demo from a Discord bot to the front end, utilizing the front-end team’s framework.
+- Determine how to incorporate stock data into the context.
+- Explore methods for adding options data to the context.
+- Integrate the simple demo with the front-end for a cohesive experience.
 
 # Individual Report
 
