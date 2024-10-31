@@ -32,7 +32,7 @@
 ## Subsection 1
 - It would be great to start working with the backend team to hopefully try to develop basic API calls for querying the vector database using the embeddings by next week.
 - Also, work on finalizing a simple demo to show to the frontend team that truly displays all of our features.
-- It would be great for Navid and I to convert all of those embedded CSV files we made into JSON files, which we can use for the vector database.
+- These goals are about the same as last time since the machine learning team is running a bit behind schedule.
 
 ## Subsection 2
 - Worked with Navid on converting the embeddings into JSON files.
@@ -40,9 +40,7 @@
 - Started working on implementing the semantic search into the bot outputs.
 
 ## Subsection 3
-- It would be great to start working with the backend team to hopefully try to develop basic API calls for querying the vector database using the embeddings by next week.
-- Also, work on finalizing a simple demo to show to the frontend team that truly displays all of our features.
-- These goals are about the same as last time since the machine learning team is running a bit behind schedule.
+
 
 
 ## Sahil
