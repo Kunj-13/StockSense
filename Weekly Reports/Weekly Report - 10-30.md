@@ -25,7 +25,6 @@
 
 # Individual Report
 
-
 ## Kunj 
 
 ## Subsection 1
@@ -34,12 +33,15 @@
 - These goals are about the same as last time since the machine learning team is running a bit behind schedule.
 
 ## Subsection 2
-- Worked with Navid on converting the embeddings into JSON files.
-- Worked with Krish to finish the semantic search.
-- Started working on implementing the semantic search into the bot outputs.
-
+- Worked with Navid and finished the embeddings into JSON files.
+- Worked with Krish and finished the semantic search.
+- Still working together on implementing the semantic search into the bot outputs.
+- Worked on a trying out a simple demo with discord bot to better show the front-end realistically what we want.
+  
 ## Subsection 3
-
+- Work with Sahil and hopefully get yahoo finance implemented in the chatbot so we can get started with actual stock queries.
+- Figure out with what python library we can get stock options data from.
+- Give a small demo to the frontend team with functions so they know how to decide the website and chatbot. 
 
 
 ## Sahil
