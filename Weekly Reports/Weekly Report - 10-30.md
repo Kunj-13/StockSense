@@ -109,22 +109,20 @@ Modify the react to give final touches. Not much left to do.
 ### Neville
 
 ## Last Week's Goals:
-- Unfortunately, not much tangible results have come out of what I did this week (as in postable code). I did do more looking around and research around some of these topics.
-- I have gotten more understanding of how React interacts with JavaScript/JSX, and how it works in a hierarchial sense. It's still quite a bit to grasp though.
-- Since the detail about using JSON has been solidified, I am able to source help that gives me an idea of how to implement displaying output. Basically, I can focus on reading our JSON outputs and rendering it.
-- Me and Tahira have gotten a clearer idea of where to start with our actual app. Well, it's clearer than last week. It still needs ironing out. We do have another prototype in the works.
-  
-## This Week's Summary and Status:
 - We did good stuff this week. We got a nice looking layout going, and theoretically can save chat history (this is slightly bugged, I opened an issue about it).
 - I figured out how to more easily port my program. I was actually able to upload my test file to the GitHub thanks to this. I was also able to have Tahira run it and have the code, so we can add to it now.
 - I mostly used AI to build the CSS and some of the features, but I also added some stuff myself. I'm so proud.
 - Being able to port it had me realize that our separate-then-combine approach might actually work pretty well. As long as we work on allowing the pieces to easily recombine, or have a template to work with, it should be fine.
+  
+## This Week's Summary and Status:
+- This was a busy week, so I wasn't able to do too much, but I did try to work on layout and design some more (not ready to push it yet).
+- I partially rewatched some of the videos sent all that time ago, and tried to look for my own (that second part didn't do me much good). I think the process and webserver stuff is closer to the top list of priorities now, so doing this was a good idea.
+- I had AI try to write new features separately, and I am trying to integrate them, but they don't always take. That took up most of my time spent this week, and I ended up having to discard some of it. It's sort of a mess.
+- I looked into ChartJS, very very surface level however. I'm certain Tahira was looking at this too. We'll see what we think about it, and if it could do our program any good. We'll come together this Friday (or other times we're free) and talk about it as a whole.
 
 ## Plans And Goals:
-- I really really really need to test API calls more. It's the basis of our program, it must work!
-- The back-end team is still working on our economically minded AI. I'll probably try working on bug fixes or layout while they're getting that ready.
-- I'm satisfied with what I showed this week, but I will always say anyway that we should meet more.
-- I think we clarified most of the details, but I still should do it more. It's difficult to change the layout or try to get it to look how I want it, HTML/JS is just odd and confusing sometimes.
-- Find a good tester or React App development environment, perhaps. It's for an assignment coming up, and I am still a bit worried about if I am working with limited tools.
-- Rewatch the videos we were sent. I watched them before, and they were good but the frontend stuff was in Python. Maybe I can reglean something with another look at it?
-
+- Try to think about adding more of our promised features, like accounts/data tracking, or graphs in some way, unless we shift requirements.
+- Think about having the program be more easily launched and deployed. Maybe even an out-of-the-box kind of thing? The difficulty of setting up a program makes it hard for new users to test.
+- Since the AI seems usable, I'd like to get those API calls tested now.
+- You can already guess: meet more. Especially since the backend and AI teams have confirmed they are caught up.
+- Since I was prioritizing other things, I didn't look for a tester or better development environment that much. I'll perhaps dedicate more time to that.
