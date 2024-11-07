@@ -576,7 +576,7 @@ This test plan defines the automated testing and Continuous Integration (CI) set
 #### Example Test
 - **Vector Search Test**: A sample test checks the functionality of `vector_search`, ensuring it returns expected results with `id` and `distance` fields.
 
-```python
+
 # test_vector_search.py
 
 import pytest
@@ -597,6 +597,9 @@ def test_vector_search():
     # Check if each result contains the expected keys
     for result in results:
         assert "id" in result and "distance" in result, "Result items should contain 'id' and 'distance' keys"
+
+
+
 
 
 ## Team Process Description
