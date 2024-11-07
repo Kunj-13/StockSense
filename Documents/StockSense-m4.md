@@ -666,7 +666,7 @@ test('renders greeting message with name', () => {
 2. **Configure Triggers:** Define triggers in the `.yml` file for push, pull requests, and scheduled builds.
 3. **Environment Setup:** Specify Qdrant as a service, set up Python and Node.js, and install dependencies for both backend and frontend.
 
-8. Example Tests
+## 8. Example Tests
 Backend Example
 Vector Search Test: Ensures the vector_search function returns correct data, using assertions to validate both structure and content.
 python
