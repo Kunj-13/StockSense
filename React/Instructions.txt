@@ -1,0 +1,11 @@
+General Instructions for running this App:
+
+1. In this directory is a zip file that must be unzipped first to be run.
+2. Node.js must be installed and usable, and preferably an environment variable.
+3. Open Command Prompt.
+4. Use the cd command (change directory) and input the filepath to wherever you extracted the program to, and where you see a package.json file. Example: cd "C:\Users\me\Desktop\everything but modules"
+5. Run npm install here, if the node_modules folder does not exist.
+6. Ignore the warnings, and then use the command npm start.
+7. It should work! It's lacking API functionality, but you can try each feature out.
+
+Note: The plan is to have Python code function as our backend to send API calls, but for now this is a basic program that showcases each feature before this is implemented. It can be run by itself for right now.
