@@ -559,6 +559,45 @@ Interface with the Data Processing Module to fetch and return analyzed data.
 - Developer Documentation:
   The system should include developer-focused documentation (e.g., code comments, API reference guides) to help new developers contribute to the project, troubleshoot issues, and add new features.
 
+# Test Plan for LLM Project Using OpenAI, Qdrant, and React
+
+## 1. Overview
+This test plan defines the automated testing and Continuous Integration (CI) setup for the LLM project, which utilizes OpenAI’s API, Qdrant as a vector database, and a React-based frontend. This document includes the testing infrastructure, CI triggers, and steps to add new tests, providing consistency and reliability across team contributions.
+
+---
+
+## 2. Test Automation Infrastructure
+
+### Backend Testing
+- **Tool**: **Pytest**
+- **Purpose**: Pytest is used for backend testing, covering functionality related to the OpenAI model and Qdrant vector database.
+- **Justification**: Pytest is compatible with Python, easy to set up, and widely supported, making it ideal for backend testing.
+
+#### Example Test
+- **Vector Search Test**: A sample test checks the functionality of `vector_search`, ensuring it returns expected results with `id` and `distance` fields.
+
+```python
+# test_vector_search.py
+
+import pytest
+from your_backend_module import vector_search
+
+def test_vector_search():
+    # Sample vector data
+    query_vector = [0.1, 0.2, 0.3, 0.4]
+    top_k = 5  # Number of results to retrieve
+
+    # Perform the vector search
+    results = vector_search(query_vector, top_k)
+
+    # Assert results are not empty and of expected length
+    assert results is not None, "Results should not be None"
+    assert len(results) == top_k, f"Expected {top_k} results, got {len(results)}"
+
+    # Check if each result contains the expected keys
+    for result in results:
+        assert "id" in result and "distance" in result, "Result items should contain 'id' and 'distance' keys"
+
 
 ## Team Process Description
 ### Software Toolset
