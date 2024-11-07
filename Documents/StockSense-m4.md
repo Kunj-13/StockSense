@@ -598,8 +598,55 @@ def test_vector_search():
     for result in results:
         assert "id" in result and "distance" in result, "Result items should contain 'id' and 'distance' keys"
 
+# Frontend Testing
 
+**Tool:** Jest  
+**Purpose:** Jest is used to test React components, ensuring they render correctly and handle user interactions.  
+**Justification:** Jest provides comprehensive testing options for React applications, with support for component testing, mocking, and coverage reporting.  
 
+## Example Test
+
+**Greeting Component Test:** This test verifies the Greeting component displays a message with the `name` prop.
+// Greeting.test.js
+
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import Greeting from '../components/Greeting';
+
+test('renders greeting message with name', () => {
+  render(<Greeting name="Navid" />);
+
+  // Check if the greeting message is displayed
+  const messageElement = screen.getByText(/Hello, Navid/i);
+  expect(messageElement).toBeInTheDocument();
+});
+
+## 3. Adding New Tests
+
+### Backend (Pytest)
+- **Create a New Test File:** Add a new test file under `backend/tests/`, following the naming convention `test_<functionality>.py`.
+- **Define Test Functions:** Use the prefix `test_` for each function (e.g., `test_vector_search`).
+- **Run Tests:** Execute all tests by running `pytest backend/tests`.
+- **Assertions:** Use assertions to verify expected outputs, especially for API responses and database interactions.
+
+### Frontend (Jest)
+- **Create a Test File:** Add a new test file in the `frontend/src/__tests__/` directory.
+- **Write Descriptive Test Cases:** Focus on component rendering and behavior with descriptive test names.
+- **Run Tests:** Execute all Jest tests by running `npm test --prefix frontend`.
+
+## 4. Continuous Integration (CI) Service
+
+**CI Service:** GitHub Actions  
+**Justification:** GitHub Actions is chosen for its seamless integration with GitHub, easy YAML-based configuration, and support for both Docker and multi-language projects.
+
+### Pros/Cons Comparison
+
+| Feature       | GitHub Actions                                                                 | CircleCI                                                     |
+|---------------|-------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **Integration** | Directly integrated with GitHub; very easy to set up and configure.          | Requires a third-party integration with GitHub.               |
+| **Ease of Use** | User-friendly interface; YAML-based configuration.                           | YAML-based configuration; interface can feel complex at first. |
+| **Docker Support** | Built-in support for Docker, allowing easy use of services like Qdrant.    | Strong Docker support; optimized for container-based builds. |
+| **Cost**      | Free for public repositories; limited free minutes for private repos.         | Generous free tier but limited; paid plans required for extensive use. |
 
 
 ## Team Process Description
