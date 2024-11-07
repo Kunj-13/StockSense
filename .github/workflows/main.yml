@@ -1,0 +1,45 @@
+name: CI Build and Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    services:
+      qdrant:
+        image: qdrant/qdrant
+        ports:
+          - 6333:6333
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Install backend dependencies
+      run: |
+        pip install -r backend/requirements.txt
+        pip install pytest
+
+    - name: Run backend tests
+      run: pytest backend/tests
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install frontend dependencies
+      run: npm install --prefix frontend
+
+    - name: Run frontend tests
+      run: npm test --prefix frontend
