@@ -225,7 +225,7 @@ The StockSense LLM is an AI chatbot that will be fed context from Federal Reserv
 ### Major Software Components
 1. Front-end Application
   - Functionality: User interface for interacting with the chatbot. It displays stock data, insights, and allows users to input queries.
-  - Technologies: React or Vue.js for building responsive interfaces.
+  - Technologies: React for building our frontend. Flask/FastAPI for processing backend (sending input to our AI).
 2. Chatbot Engine
   - Functionality: Processes user queries, generates responses using an LLM, and integrates market analysis insights. It can handle context from Federal Reserve speeches and respond with tailored advice.
   - Technologies: OpenAI API for LLM capabilities
