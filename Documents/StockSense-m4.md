@@ -648,6 +648,61 @@ test('renders greeting message with name', () => {
 | **Docker Support** | Built-in support for Docker, allowing easy use of services like Qdrant.    | Strong Docker support; optimized for container-based builds. |
 | **Cost**      | Free for public repositories; limited free minutes for private repos.         | Generous free tier but limited; paid plans required for extensive use. |
 
+## 5. CI Build Triggers
+
+- **Push to Main:** CI runs on every push to the main branch.
+- **Pull Requests:** CI builds are triggered for all pull requests to the main branch, ensuring integration safety.
+- **Scheduled Builds:** Optionally, nightly builds can be scheduled for ongoing code quality validation.
+
+## 6. Tests Executed in CI Builds
+
+- **Backend Tests:** Pytest will validate backend functionality, including interaction with the OpenAI API and Qdrant database.
+- **Frontend Tests:** Jest will validate component functionality and rendering accuracy for the React frontend.
+- **Database Service:** Qdrant is pulled as a Docker service to provide a realistic test environment.
+
+## 7. Steps to Link CI Service and Configure Triggers
+
+1. **Create CI Workflow:** Add a `.yml` file to `.github/workflows/` in the GitHub repository.
+2. **Configure Triggers:** Define triggers in the `.yml` file for push, pull requests, and scheduled builds.
+3. **Environment Setup:** Specify Qdrant as a service, set up Python and Node.js, and install dependencies for both backend and frontend.
+
+8. Example Tests
+Backend Example
+Vector Search Test: Ensures the vector_search function returns correct data, using assertions to validate both structure and content.
+python
+Copy code
+# test_vector_search.py
+
+import pytest
+from your_backend_module import vector_search
+
+def test_vector_search():
+    query_vector = [0.1, 0.2, 0.3, 0.4]
+    top_k = 5
+
+    results = vector_search(query_vector, top_k)
+
+    assert results is not None
+    assert len(results) == top_k
+
+    for result in results:
+        assert "id" in result and "distance" in result
+Frontend Example
+Greeting Component Test: Verifies that the Greeting component renders correctly with a provided name.
+javascript
+Copy code
+// Greeting.test.js
+
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import Greeting from '../components/Greeting';
+
+test('renders greeting message with name', () => {
+  render(<Greeting name="Navid" />);
+  const messageElement = screen.getByText(/Hello, Navid/i);
+  expect(messageElement).toBeInTheDocument();
+});
+
 
 ## Team Process Description
 ### Software Toolset
