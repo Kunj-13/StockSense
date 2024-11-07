@@ -26,6 +26,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
-        working-directory: LLM
+        working-directory: .github/workflows
         run: |
           pytest tests
