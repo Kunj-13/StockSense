@@ -3,25 +3,23 @@
 # Project Update
 
 ## Subsection 1: What We Did Last Week
-- Created a file for the API calls so the front-end team can identify any remaining requirements.
-- Altered the front end to fully integrate the bot.
-- Attempted to create a simple demo of the project (without all data) in a command-line interface for the front-end team. If time did not allow, this goal will carry over to the next week.
-- Increased the frequency of team meetings, addressing some coordination gaps.
-- Focused on the same goals, as they remain priorities.
+- Transition the demo from a Discord bot to the front end, utilizing the front-end team’s framework.
+- Determine how to incorporate stock data into the context.
+- Explore methods for adding options data to the context.
+- Integrate the simple demo with the front-end for a cohesive experience.
 
 ## Subsection 2: What We Did
-- **Navid and Kunj (Machine Learning)**: Worked to complete a simple demo using a Discord bot with context from all FOMC minutes and statements.
-- **Krish and Sahil (Back-End)**: Contributed to the demo development and integrated the vector database.
-- **Tahira and Neville (Front-End)**: Set up prototype AI chatboxes and began testing API calls. Awaiting further interactivity integration until the AI chatbox is fully functional and visually polished. Basic layout is established, and front-end work will be consolidated when stable. Work on integration has started, and is the biggest priority.
+- **Navid and Kunj (Machine Learning)**: Made good progress incorporating stock data into the demo.
+- **Krish and Sahil (Back-End)**: Work on getting the JSON integrated with the front end and have the data formatted which is received from the API. 
+- **Tahira and Neville (Front-End)**: The prototypes are set up and functioning, with API calls working. Interactive features are partially integrated, and visual refinements are ongoing to ensure a polished user experience. The foundational layout is complete, and front-end development is advancing steadily. Integration efforts are progressing and remain the primary focus as we move closer to a fully functional system.
 
 ### Troubles
 - No significant issues this week; machine learning and back-end teams are now aligned with the front end.
 
 ## Subsection 3: What We Will Do Next
-- Transition the demo from a Discord bot to the front end, utilizing the front-end team’s framework.
-- Determine how to incorporate stock data into the context.
-- Explore methods for adding options data to the context.
-- Integrate the simple demo with the front-end for a cohesive experience.
+- Determine how to incorporate stock data from the JSON file to the front end.
+- Research how to add options data to the context.
+- Create a demo using the information from the JSON files
 
 # Individual Report
 
