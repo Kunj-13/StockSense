@@ -33,9 +33,14 @@
 - Give a small demo to the frontend team with functions so they know how to decide the website and chatbot. 
 
 ## Subsection 2
-
+- Made good progress and succesfully gave a demo of a discord bot to the front end team and explain them how it should work with their framework.
+- Researched more about yfinance API and got started with it and discussed the approach on how stock data will be integrated into the context.
+- Other thing carried on from last week is that we are still figuring out methods on how we are going to add options data.
   
 ## Subsection 3
+- One of the main goals would be getting huge progress in incorporating stock data into the demo.
+- Other would be working with the front end team to move our current discord bot demo to the front end making sure it aligns with front end structure.
+- Last thing would be research and get started on how we are going to add options data.
 
 
 
