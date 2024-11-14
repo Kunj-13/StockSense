@@ -104,21 +104,21 @@ Modify the react to give final touches. Not much left to do.
 ### Neville
 
 ## Last Week's Goals:
-- We did good stuff this week. We got a nice looking layout going, and theoretically can save chat history (this is slightly bugged, I opened an issue about it).
-- I figured out how to more easily port my program. I was actually able to upload my test file to the GitHub thanks to this. I was also able to have Tahira run it and have the code, so we can add to it now.
-- I mostly used AI to build the CSS and some of the features, but I also added some stuff myself. I'm so proud.
-- Being able to port it had me realize that our separate-then-combine approach might actually work pretty well. As long as we work on allowing the pieces to easily recombine, or have a template to work with, it should be fine.
-  
-## This Week's Summary and Status:
 - This was a busy week, so I wasn't able to do too much, but I did try to work on layout and design some more (not ready to push it yet).
 - I partially rewatched some of the videos sent all that time ago, and tried to look for my own (that second part didn't do me much good). I think the process and webserver stuff is closer to the top list of priorities now, so doing this was a good idea.
 - I had AI try to write new features separately, and I am trying to integrate them, but they don't always take. That took up most of my time spent this week, and I ended up having to discard some of it. It's sort of a mess.
 - I looked into ChartJS, very very surface level however. I'm certain Tahira was looking at this too. We'll see what we think about it, and if it could do our program any good. We'll come together this Friday (or other times we're free) and talk about it as a whole.
-
+  
+## This Week's Summary and Status:
+- I added new features! Now we can erase chats, and switching between them works. The bug where the first opened chat wasn't saved is fixed too.
+- I got a working AI program, but it's only for a discord bot. I'm trying to revamp it to be a "Flask" server program.
+- I am currently trying to figure out how to integrate a Flask server and my frontend. Flask will serve as the backend, React as the frontend, I'm just thinking how to get deployment to work. We can't export node_modules, so I want some Python code to run "npm install" or something if need be. And then run the server, which will fetch our sent data. Figuring that out too.
+- Since we're using an API and we want to mimic real AI interactivity, I am trying to find ways to "limit" sending input, if the AI is still busy trying to respond, for example. I already disallow sending blank spaces, but spam-proofing is important as a check. Also so our AI has a chance to respond properly to given input. My current idea: Disallow post requests, or the button until the AI sends some "complete" token or something. If that's not a thing, I'll figure something out.
+- Requirements changed. We did away with charts, but still want YFinance to give us stock data.
+  
 ## Plans And Goals:
-- Try to think about adding more of our promised features, like accounts/data tracking, or graphs in some way, unless we shift requirements.
-- Think about having the program be more easily launched and deployed. Maybe even an out-of-the-box kind of thing? The difficulty of setting up a program makes it hard for new users to test.
-- Since the AI seems usable, I'd like to get those API calls tested now.
-- You can already guess: meet more. Especially since the backend and AI teams have confirmed they are caught up.
-- Since I was prioritizing other things, I didn't look for a tester or better development environment that much. I'll perhaps dedicate more time to that.
-
+- Look into deployment. We're at that stage now.
+- Finish integration quickly, to test API calls sooner. Then later make it look nice or have good useful features.
+- Look into testing. If Github can run it, so can anybody else, perhaps?
+- Get help on the server thing all of us. We're so close, we just need to integrate it! Frontend might be the bottleneck now, which is bad.
+- Do the Github stuff.
