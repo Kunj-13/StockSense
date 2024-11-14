@@ -57,14 +57,7 @@
 ### Subsection 1: 
 
 This week:
-
-I was working on data visualization libray Chart.js for displaying stock trends and analysis, now I realized the backend is not created for charts. So my week was not productive, but I learn something that maybe useful in the future. Setting up react is not a big job, but it took me days to understand how to build it.
-
-### Subsection 2:
-
-Next weeks Goal:
-
-Modify the react to give final touches. Not much left to do.
+Modify the react to give final touches. Not much left to do in react.
 
 
 
