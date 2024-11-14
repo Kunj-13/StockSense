@@ -12,7 +12,7 @@
 ## Subsection 2: What We Did
 - **Navid and Kunj (Machine Learning)**: Worked to complete a simple demo using a Discord bot with context from all FOMC minutes and statements.
 - **Krish and Sahil (Back-End)**: Contributed to the demo development and integrated the vector database.
-- **Tahira and Neville (Front-End)**: Set up prototype AI chatboxes and began testing API calls. Awaiting further interactivity integration until the AI chatbox is fully functional and visually polished. Basic layout is established, and front-end work will be consolidated when stable.
+- **Tahira and Neville (Front-End)**: Set up prototype AI chatboxes and began testing API calls. Awaiting further interactivity integration until the AI chatbox is fully functional and visually polished. Basic layout is established, and front-end work will be consolidated when stable. Work on integration has started, and is the biggest priority.
 
 ### Troubles
 - No significant issues this week; machine learning and back-end teams are now aligned with the front end.
@@ -110,6 +110,7 @@ Modify the react to give final touches. Not much left to do.
 - I looked into ChartJS, very very surface level however. I'm certain Tahira was looking at this too. We'll see what we think about it, and if it could do our program any good. We'll come together this Friday (or other times we're free) and talk about it as a whole.
   
 ## This Week's Summary and Status:
+(Note: Some of these points from my summary and status isn't all from this same week)
 - I added new features! Now we can erase chats, and switching between them works. The bug where the first opened chat wasn't saved is fixed too.
 - I got a working AI program, but it's only for a discord bot. I'm trying to revamp it to be a "Flask" server program.
 - I am currently trying to figure out how to integrate a Flask server and my frontend. Flask will serve as the backend, React as the frontend, I'm just thinking how to get deployment to work. We can't export node_modules, so I want some Python code to run "npm install" or something if need be. And then run the server, which will fetch our sent data. Figuring that out too.
