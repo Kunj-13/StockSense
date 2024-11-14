@@ -57,7 +57,7 @@
 ### Subsection 1: 
 
 This week:
-Modify the react to give final touches. Not much left to do in react.
+Modifying the react, So frontend could communicate with backend, but there is not much progress.
 
 
 
