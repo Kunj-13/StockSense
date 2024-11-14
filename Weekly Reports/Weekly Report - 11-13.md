@@ -9,7 +9,7 @@
 - Integrate the simple demo with the front-end for a cohesive experience.
 
 ## Subsection 2: What We Did
-- **Navid and Kunj (Machine Learning)**: Made good progress incorporating stock data into the demo.
+- **Navid and Kunj (Machine Learning)**: Made good progress incorporating stock data into the demo. Made good progress in integrating API calls in our demo.
 - **Krish and Sahil (Back-End)**: Work on getting the JSON integrated with the front end and have the data formatted which is received from the API. 
 - **Tahira and Neville (Front-End)**: The prototypes are set up and functioning, with API calls working. Interactive features are partially integrated, and visual refinements are ongoing to ensure a polished user experience. The foundational layout is complete, and front-end development is advancing steadily. Integration efforts are progressing and remain the primary focus as we move closer to a fully functional system.
 
