@@ -41,16 +41,18 @@
 
 ## Sahil
 ## Subsection 1
-- Figure out how to configure the outputs of the bot into JSON so the front end can use it.
-- Help finish the bot output with Navid and Kunj.
+- Help get the YahooFinance API implemented with the chatbot
+- Help with the front end and get it working
 
 ## Subsection 2
-- I helped complete the demo.
-- I got the JSON files formatted and it should be working with the Vector database. 
+- I am finishing getting the JSON files formatted so it works with the vector database
+- I am helping get the front end set up for the JSON inputs.
+- Doing some research on errors I got and getting everything integrated
 
 ## Subsection 3
-- Help get the YahooFinance API implemented with the chatbot
-- Help with the front-end and get it working
+- Help get the frontend implemented with the JSON so everything is displayed as expected
+- Help making the frontend look nice
+- Do some research on how to use React
 
 
 ## Tahira
@@ -63,17 +65,17 @@ Modifying the react, So frontend could communicate with backend, but there is no
 
 ### Krish
 ## Subsection 1
-- I want to coordinate with the group and make sure we are all on the same page for how we will push commits to the repository without screwing up each other's work.
-- Figure out how to configure the outputs of the bot into JSON so the front end can use it.
-
-## Subsection 2
-- Get the Yahoo finance API implemented so it works with the vector database without any issues
-- Finish uploading documents into the vector database.
-- Get JSON files formatted so I can work on the front end
-
-## Subsection 3
 - Get the front end ready so the bot and display information
 - Look into another API for option trading
+
+## Subsection 2
+- Get the Yahoo finance API to write everything in JSON
+- Have the frontend ready so it can take the JSON input
+
+## Subsection 3
+- Get the frontend setup with the JSON inputs
+- Have the frontend display information from the API
+
 
 
 ### Navid Hoque
