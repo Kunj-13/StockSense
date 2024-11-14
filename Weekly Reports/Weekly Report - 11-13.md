@@ -20,6 +20,7 @@
 - Determine how to incorporate stock data from the JSON file to the front end.
 - Research how to add options data to the context.
 - Create a demo using the information from the JSON files
+- Run tests running on yahoo API while displaying stock information on front end. 
 
 # Individual Report
 
