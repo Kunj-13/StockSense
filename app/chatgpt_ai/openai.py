@@ -7,8 +7,8 @@ from app.utils import *
 
 load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
+print(openai.api_key)
 
-import openai
 client = openai.OpenAI()
 
 def chatgpt_response(prompt, client):
