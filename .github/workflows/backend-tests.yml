@@ -26,13 +26,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Set environment variables
-      env:
-        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: echo "Environment variable OPENAI_API_KEY set."
-
-    - name: Set PYTHONPATH
-      run: echo "PYTHONPATH=$(pwd):$PYTHONPATH" >> $GITHUB_ENV
+    - name: Set Environment Variables
+      run: echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
 
     - name: Run tests
       run: python -m unittest discover -s tests -p "*.py"
