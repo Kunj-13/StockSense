@@ -2,6 +2,8 @@ from dotenv import load_dotenv
 import openai
 import os
 from utils import *
+from app.utils import *
+
 
 
 load_dotenv()
