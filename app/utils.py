@@ -43,3 +43,8 @@ def response_chat(prompt, model="gpt-3.5-turbo-instruct"):
     )
     return response.choices[0].text.strip()
 
+def some_utility_function(input_data):
+    """Example utility function."""
+    return f"Processed {input_data}"
+
+
