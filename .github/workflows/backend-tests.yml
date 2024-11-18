@@ -29,7 +29,7 @@ jobs:
     - name: Set environment variables
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: echo "Environment variable set."
+      run: echo "Environment variable OPENAI_API_KEY set."
 
     - name: Set PYTHONPATH
       run: echo "PYTHONPATH=$(pwd):$PYTHONPATH" >> $GITHUB_ENV
