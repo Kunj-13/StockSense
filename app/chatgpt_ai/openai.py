@@ -7,7 +7,7 @@ from app.utils import *
 
 load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
-print(openai.api_key)
+print(openai.api_key,"testing and stuff omg")
 
 client = openai.OpenAI()
 
