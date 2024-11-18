@@ -29,7 +29,9 @@ jobs:
     - name: Set Environment Variables
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: echo "Environment variables set."
+      run: |
+        # Check if the environment variable is set
+        python -c "import os; print('API Key:', os.getenv('OPENAI_API_KEY'))"
 
     - name: Set PYTHONPATH
       run: echo "PYTHONPATH=$(pwd):$PYTHONPATH" >> $GITHUB_ENV
