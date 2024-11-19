@@ -4,7 +4,7 @@ import os
 import openai
 from app.chatgpt_ai.openai import chatgpt_response
 from qdrant_client import QdrantClient
-from utils import *
+from app.utils import *
 
 load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
