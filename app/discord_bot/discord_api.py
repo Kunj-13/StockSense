@@ -11,6 +11,11 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 
 discord_token = os.getenv('Discord_Bot_Token')
 
+if discord_token:
+    print("Discord Token exists!")
+else:
+    print("No Discord Token.")
+
 qdrantclient = qdrant_client()
 collection_name = 'Fed_Speeches'
 
