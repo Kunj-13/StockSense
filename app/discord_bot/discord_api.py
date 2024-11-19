@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import discord
 import os
 import openai
-from chatgpt_ai.openai import chatgpt_response
+from app.chatgpt_ai.openai import chatgpt_response
 from qdrant_client import QdrantClient
 from utils import *
 
