@@ -1,6 +1,6 @@
 import unittest
 from app.utils import some_utility_function
-from app.chatgpt_ai.openai import generate_response
+from app.chatgpt_ai.openai import chatgpt_response
 from app.discord_bot.discord_api import handle_discord_event
 from app.run import create_app
 
