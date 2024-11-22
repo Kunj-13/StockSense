@@ -30,4 +30,4 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           Discord_Bot_Token: ${{ secrets.Discord_Bot_Token }}
-        run: python -m unittest 
+        run: python -m unittest discover -s tests -p '*_test.py'
