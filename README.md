@@ -74,13 +74,22 @@ npm install
 ### Backend
 
 1. Ensure all dependencies are installed.
-2. Run the database setup scripts located in the `Database` folder.
-3. Use `qdrant_upload.ipynb` to populate the Qdrant vector database.
+2. Run the database setup scripts in the `Database` folder to initialize the Qdrant database.
+3. Automate embedding upload:
+    - Use `qdrant_upload.ipynb` for automatic upload of preprocessed embeddings to the Qdrant database.
+    - For automated execution of the notebook, consider `papermill` or equivalent tools.
+
+Example command with `papermill`:
+
+```bash
+pip install papermill
+papermill qdrant_upload.ipynb output.ipynb
+```
 
 ### Frontend
 
 1. Navigate to the React folder.
-2. Build the frontend using:
+2. Automate frontend build using:
 
 ```bash
 npm run build
@@ -92,10 +101,16 @@ npm run build
 
 ### Backend
 
-Start the backend application:
+Run the backend application with:
 
 ```bash
 python app/main.py
+```
+
+Automate this with a single command in the project root:
+
+```bash
+bash run_backend.sh
 ```
 
 ### Frontend
@@ -114,19 +129,30 @@ Access the application at `http://localhost:3000`.
 
 ### Backend Tests
 
-Run the test suite using:
+Run automated tests:
 
 ```bash
 pytest tests
 ```
 
+Generate a detailed test coverage report:
+
+```bash
+pytest --cov=app tests/ > test_coverage_report.txt
+```
+
 ### Frontend Tests
 
-Navigate to the React folder and run:
+Navigate to the React folder and execute tests:
 
 ```bash
 npm test
 ```
+
+For automated CI-based testing:
+
+1. Ensure GitHub Actions workflows are configured in `.github/workflows/test.yml`.
+2. Trigger tests with each pull request.
 
 ---
 
