@@ -34,3 +34,4 @@ class TestAppBackend(unittest.TestCase):
         event = {"type": "message", "content": "Hello bot!"}
         result = handle_discord_event(event)
         self.assertIsNotNone(result)
+        
