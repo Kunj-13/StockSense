@@ -183,8 +183,4 @@ For automated CI-based testing:
 
 ---
 
-## Contributing
 
-We welcome contributions! Please fork the repository, make your changes, and submit a pull request. For major changes, create an issue to discuss the proposed changes.
-
----
