@@ -86,7 +86,9 @@ pip install jupyter
 jupyter nbconvert --to notebook --execute qdrant_upload.ipynb --output executed_qdrant_upload.ipynb
 ```
 -- `to notebook`: Ensures the output remains in notebook format.
+
 -- `execute`: Runs the notebook cells sequentially.
+
 -- `output`: Saves the executed notebook with a different name, so your original remains unchanged.
 ### Frontend
 
