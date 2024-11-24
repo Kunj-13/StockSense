@@ -9,6 +9,7 @@
 - [Installation](#installation)
 - [Building the Project](#building-the-project)
 - [Running the Project](#running-the-project)
+- [Running the Project Method 2](#running-the-project-method-2)
 - [Testing the Project](#testing-the-project)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
@@ -90,6 +91,7 @@ jupyter nbconvert --to notebook --execute qdrant_upload.ipynb --output executed_
 -- `execute`: Runs the notebook cells sequentially.
 
 -- `output`: Saves the executed notebook with a different name, so your original remains unchanged.
+
 ### Frontend
 
 1. Navigate to the React folder.
@@ -108,7 +110,7 @@ npm run build
 Run the backend application with:
 
 ```bash
-python app/main.py
+python run.py
 ```
 
 Automate this with a single command in the project root:
@@ -119,7 +121,35 @@ bash run_backend.sh
 
 ### Frontend
 
-Navigate to the React folder and start the development server:
+Note that the backend program (run.py) automatically installs frontend dependencies, and launches the React App when run.
+
+How to manually run: Navigate to the React folder and start the development server.
+
+```bash
+npm start
+```
+
+Access the application at `http://localhost:3000`.
+
+---
+
+## Running the Project Method 2:
+
+Extract the chatgptFrontEnd.zip file from the Git. Make sure all pip dependencies have been installed, and all required software is available.
+
+### Backend
+
+Navigate to the folder containing run.py, and run the backend application with:
+
+```bash
+python run.py
+```
+
+### Frontend
+
+Note that the backend program (run.py) automatically installs frontend dependencies, and launches the React App when run.
+
+How to manually run: Navigate to the React folder and start the development server.
 
 ```bash
 npm start
@@ -180,7 +210,3 @@ For automated CI-based testing:
 - **data/**: Contains datasets and embeddings.
 - **notebooks/**: Jupyter notebooks for data processing and embeddings.
 - **README.md**: Documentation for the project.
-
----
-
-
