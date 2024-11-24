@@ -77,15 +77,17 @@ npm install
 2. Run the database setup scripts in the `Database` folder to initialize the Qdrant database.
 3. Automate embedding upload:
     - Use `qdrant_upload.ipynb` for automatic upload of preprocessed embeddings to the Qdrant database.
-    - For automated execution of the notebook, consider `papermill` or equivalent tools.
+    - For automated execution of the notebook, consider `jupyter` or equivalent tools.
 
-Example command with `papermill`:
+Example command with `jupyter`:
 
 ```bash
-pip install papermill
-papermill qdrant_upload.ipynb output.ipynb
+pip install jupyter
+jupyter nbconvert --to notebook --execute qdrant_upload.ipynb --output executed_qdrant_upload.ipynb
 ```
-
+-- `to notebook`: Ensures the output remains in notebook format.
+-- `execute`: Runs the notebook cells sequentially.
+-- `output`: Saves the executed notebook with a different name, so your original remains unchanged.
 ### Frontend
 
 1. Navigate to the React folder.
