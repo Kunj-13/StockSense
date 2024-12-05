@@ -104,22 +104,20 @@ Modifying the react, So frontend could communicate with backend, but there is no
 ### Neville
 
 ## Last Week's Goals:
-- This was a busy week, so I wasn't able to do too much, but I did try to work on layout and design some more (not ready to push it yet).
-- I partially rewatched some of the videos sent all that time ago, and tried to look for my own (that second part didn't do me much good). I think the process and webserver stuff is closer to the top list of priorities now, so doing this was a good idea.
-- I had AI try to write new features separately, and I am trying to integrate them, but they don't always take. That took up most of my time spent this week, and I ended up having to discard some of it. It's sort of a mess.
-- I looked into ChartJS, very very surface level however. I'm certain Tahira was looking at this too. We'll see what we think about it, and if it could do our program any good. We'll come together this Friday (or other times we're free) and talk about it as a whole.
-  
-## This Week's Summary and Status:
-(Note: Some of these points from my summary and status isn't all from this same week)
 - I added new features! Now we can erase chats, and switching between them works. The bug where the first opened chat wasn't saved is fixed too.
 - I got a working AI program, but it's only for a discord bot. I'm trying to revamp it to be a "Flask" server program.
 - I am currently trying to figure out how to integrate a Flask server and my frontend. Flask will serve as the backend, React as the frontend, I'm just thinking how to get deployment to work. We can't export node_modules, so I want some Python code to run "npm install" or something if need be. And then run the server, which will fetch our sent data. Figuring that out too.
 - Since we're using an API and we want to mimic real AI interactivity, I am trying to find ways to "limit" sending input, if the AI is still busy trying to respond, for example. I already disallow sending blank spaces, but spam-proofing is important as a check. Also so our AI has a chance to respond properly to given input. My current idea: Disallow post requests, or the button until the AI sends some "complete" token or something. If that's not a thing, I'll figure something out.
 - Requirements changed. We did away with charts, but still want YFinance to give us stock data.
   
+## This Week's Summary and Status:
+- We got everything to work! AI responds, frontend works + keeps its features over the long term, and deploys smoothly.
+- We made a demo and showed off the features. It went well.
+- We tested "fresh installs", and they worked, so we're all good.
+  
 ## Plans And Goals:
-- Look into deployment. We're at that stage now.
-- Finish integration quickly, to test API calls sooner. Then later make it look nice or have good useful features.
-- Look into testing. If Github can run it, so can anybody else, perhaps?
-- Get help on the server thing all of us. We're so close, we just need to integrate it! Frontend might be the bottleneck now, which is bad.
-- Do the Github stuff.
+- Find a way to make it even more deployable. Poetry? Since it's mainly running in Python. We got our requirements.txt already and everything.
+- Fix up the GitHub. It's kind of a mess.
+- Make our frontend better. The demo showed off a slightly messier program, because I wanted to keep "debug" code in it. That's why it had two buttons, an offline and online one. It also has older iterations in its files. Frontend should clean all that up.
+- Make our project presentation work well. We had a class some time ago where I tried to run our program on one of our teammate's computers, and it couldn't due to proxy issues. Unanticipated stuff like that is a problem. We need to make sure everything is working as much as possible before we stand up there.
+- See if we can get live stock data and analysis. If we can't make it work in time, we may drop the feature.
