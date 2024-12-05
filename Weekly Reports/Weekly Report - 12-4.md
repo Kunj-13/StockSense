@@ -87,19 +87,18 @@ Modifying the react, So frontend could communicate with backend, but there is no
 ### Navid Hoque
 
 ## Subsection 1: Last Week’s Goals
-- Collaborate with Kunj and the back-end team to develop a simple demo, showcasing the chatbot to the front-end team and assisting as needed.
-- Support the back-end team as the machine learning team nears completion of its tasks.
-- Finalize the semantic search functionality, allowing the chatbot to output relevant results.
-- Continue focusing on these same goals from the previous week.
-
-## Subsection 2: What We Did
-- Completed a simple demo using a Discord bot as a sample front end, providing the front-end team with a reference for integrating the chatbot.
-- Collaborated with Sahil, Kunj, and Krish to integrate the context from the vector database, enabling the bot to respond with relevant information from the documents stored in the database.
-
-## Subsection 3: Plans and Goals
 - Present the demo to the front-end team and identify where the sample Discord front end can be replaced with the front-end team’s interface.
 - Explore efficient sources for acquiring current options data.
 - Develop a method to incorporate options data into the context, as it cannot be directly added to the vector database.
+
+## Subsection 2: What We Did
+- Added SPY and QQQ stock data to context into the vector database via json data from the last 2 years of stock pricing
+- worked with backend team on writing and running tests for the vector database and made sure everything was working fine 
+
+## Subsection 3: Plans and Goals
+- Figure out if we can actually add option data into context or if this wont be a feasible task
+- Figure out how long a pipeline would take to create and if it doesnt take long make it because this would solve all the hassle of individual stock data and even trying to add option data
+
 
 
 ### Neville
